@@ -1,3 +1,102 @@
+#topBannerAndNavBar {
+  background-color: #434CCC;
+  width: 1440px;
+  height: 120vh;
+  color: white;
+  font-family: DM Sans;
+}
+#topBannerAndNavBar nav {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+}
+#topBannerAndNavBar nav #logoContainer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#topBannerAndNavBar nav #logoContainer #mainLogo {
+  width: 45%;
+  height: 100%;
+  margin-left: 120px;
+}
+#topBannerAndNavBar nav #navLinksContainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4%;
+  padding-right: 135px;
+}
+#topBannerAndNavBar nav #navLinksContainer a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-family: DM Sans;
+}
+#topBannerAndNavBar nav #navLinksContainer button {
+  background-color: #434CCC;
+  padding: 13px 56px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner {
+  width: 100%;
+  height: 105vh;
+  display: flex;
+  padding-left: 135px;
+  padding-right: 135px;
+  box-sizing: border-box;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent {
+  width: 40%;
+  height: 100%;
+  padding-top: 111px;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent #paraBeforeHeading {
+  font-weight: 400;
+  letter-spacing: 4.8px;
+  font-size: 16px;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent h1 {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div {
+  width: 70%;
+  height: fit-content;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div p {
+  font-size: 16px;
+  font-weight: 700;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div button {
+  padding: 13px 55px;
+  background: var(--Primary_2, #F1B505);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg {
+  width: 60%;
+  height: 100%;
+}
+#topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg img {
+  width: 100%;
+  height: 95%;
+}
+
 .bot {
   height: 656px;
   width: 1440px;
