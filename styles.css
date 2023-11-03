@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #topBannerAndNavBar {
   background-color: #434CCC;
   width: 100%;
@@ -343,6 +348,168 @@
   color: black;
 }
 
+.aliquip {
+  width: 100%;
+  height: 1328px;
+  background-color: #f5f6fc;
+  border: 1px solid white;
+  direction: flex;
+  flex-direction: column;
+}
+.aliquip .sam .samhead1 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* H5 */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  margin-top: 63px;
+}
+.aliquip .sam .samhead2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  /* 114.286% */
+  margin-top: 21px;
+}
+.aliquip .sam .samText_Big {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  margin-top: 29px;
+}
+.aliquip .samcontent {
+  display: grid;
+  margin-top: 13px;
+  margin-bottom: 117px;
+  margin-left: 135px;
+  margin-right: 135px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.aliquip .samcontent #somu1 {
+  padding-left: 80px;
+}
+.aliquip .samcontent #somu1 #samimg1 {
+  height: 456px;
+  width: 485px;
+  margin-right: 20px;
+}
+.aliquip .samcontent #somu2 {
+  padding-right: 80px;
+}
+.aliquip .samcontent #somu2 .samhead {
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 97px;
+  /* 120% */
+  width: 323px;
+  height: 96px;
+  top: 1930px;
+  left: 735px;
+}
+.aliquip .samcontent #somu2 .samText_Grey {
+  width: 470px;
+  height: 75px;
+  top: 2063px;
+  left: 735px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 27px;
+}
+.aliquip .samcontent #somu2 .samText {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 37px;
+  height: 24px;
+  top: 2175px;
+  left: 735px;
+  width: 96px;
+}
+.aliquip #somu3 {
+  padding-left: 80px;
+}
+.aliquip #somu3 .samhead {
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* 120% */
+  width: 392px;
+  height: 96px;
+  top: 2410px;
+  left: 235px;
+  margin-top: 121px;
+}
+.aliquip #somu3 .samText_Grey {
+  height: 75px;
+  top: 2543px;
+  left: 235px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 37px;
+}
+.aliquip #somu3 .samText {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 37px;
+}
+.aliquip #somu4 {
+  padding-right: 80px;
+}
+.aliquip #somu4 #samimg2 {
+  height: 456px;
+  width: 485px;
+  margin-top: 40px;
+}
+
 footer {
   background-color: rgb(245, 246, 252);
   height: 400px;
@@ -439,7 +606,6 @@ footer .des {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
 }
 footer .desc {
-  height: 48px;
   width: 270px;
   font-size: 16px;
   font-weight: 400;
