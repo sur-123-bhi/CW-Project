@@ -1,4 +1,3 @@
-
 body{
     margin:0;
     padding: 0;
@@ -119,7 +118,7 @@ body{
     }
 }
 
-//kundan part
+
 
 .bot{
     height: 656px;
@@ -127,7 +126,7 @@ body{
     background-color: #434CCC;
     display: flex;
 
-    #location{
+    #location {
         height: 464px;
         width: 570px;
         position: relative;
@@ -135,21 +134,21 @@ body{
         top: 100px;
     }
 
-    .detail{
+    .detail {
         position: relative;
-        height:464px;
-        width: 569px;
-        top:100px;
-        left:200px;
-    }
-     
-    .largeimage{
         height: 464px;
-        width:570px;
+        width: 569px;
+        top: 100px;
+        left: 200px;
     }
 
-    .smallimage{
-        position:absolute;
+    .largeimage {
+        height: 464px;
+        width: 570px;
+    }
+
+    .smallimage {
+        position: absolute;
         width: 72px;
         height: 72px;
         top: 44%;
@@ -157,130 +156,145 @@ body{
     }
 
 
-    #anc{
+    #anc {
         height: 24px;
-        width:107px;
-    font-family:'DM Sans', sans-serif;
-    
-    color: #FFFFFF;
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 30%;
+        width: 107px;
+        font-family: 'DM Sans', sans-serif;
+
+        color: #FFFFFF;
+        size: 16px;
+        line-height: 24px;
+        letter-spacing: 30%;
 
     }
 
-    #SC{
-        font-family:'DM Serif Display';
+    #SC {
+        font-family: 'DM Serif Display';
         width: 268px;
-        line-height:64px;
+        line-height: 64px;
         font-size: 56px;
         color: white;
         margin-top: 21px;
         font-weight: 400;
 
-        
+
     }
 
 
-    #mail{
+    #mail {
         height: 76px;
         width: 470px;
         margin-top: 24px;
     }
 
-    #email{
+    #email {
         width: 100%;
-            padding-bottom: 12px;
-            padding-top: 15px;
-            padding-left: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        padding-bottom: 12px;
+        padding-top: 15px;
+        padding-left: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
     }
 
 
-    #msg{
+    #msg {
         height: 124px;
         width: 470px;
-       
+
     }
-    #message{
+
+    #message {
         width: 480px;
         height: 96px;
         border: 1px solid #ccc;
         border-radius: 4px;
     }
-    
-    
-    button{
+
+
+    button {
         margin-top: 48px;
         height: 48px;
-        width:170px;
+        width: 170px;
         color: white;
-        background-color:#F1B505;
+        background-color: #F1B505;
         font-family: 'DM Sans';
         font-size: 16px;
         font-weight: 700;
         text-align: center;
         border-radius: 5px;
         border: #F1B505;
-        
+
     }
 
 }
+
+//kundan part
 //Container2 Styling
 .main_303 {
     width: 100%;
     height: 768px;
+    margin: auto;
     background-color: #FFDD78;
+    display: flex;
+    flex-direction: column;
+
+    .H2_303 {
+        //styleName: H2_303;
+        width: 469px;
+        height: 64px;
+        font-family: 'DM Serif Display', serif;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Text_Big_303 {
+        //styleName: Text_Big_303;
+        width: 570px;
+        height: 83px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.H2_303 {
-    //styleName: H2_303;
-    width: 469px;
-    height: 64px;
-    padding-top: 60px;
-    padding-bottom: 25px;
-    font-family: 'DM Serif Display', serif;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: 0px;
-    text-align: center;
-    margin: auto;
-}
 
-.Text_Big_303 {
-    //styleName: Text_Big_303;
-    width: 570px;
-    height: 83px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0px;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 36px;
-}
+
+
 
 .cards_303 {
-    display: grid;
-    width: 1170px;
+    display: flex;
+    width: 80%;
     height: auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
     text-align: center;
     align-items: center;
-    margin: auto;
-    gap: 30px;
+    margin-top: 0%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3%
 }
 
 .card_303 {
-    width: 370px;
-    height: 416px;
+    width: 100%;
+    height: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px 0px #0000004C;
     border-radius: 4px;
+    margin: auto;
 }
 
 .image1_303 {
@@ -305,7 +319,6 @@ body{
     margin-bottom: 15px;
     color: black;
 }
-
 .Text_grey_303 {
     //styleName: Text_Gray;
     width: 306px;
@@ -321,6 +334,7 @@ body{
     margin-bottom: 25px;
 }
 
+
 .HR_303 {
     width: 338px;
     height: 1px;
@@ -332,9 +346,9 @@ body{
 .material-symbols-outlined {
     width: 6px;
     height: 11px;
-    position: absolute;
-    font-size: 20px;
-    bottom: 29px;
+    position: relative;
+    left: 85px;
+    bottom: 22px;
     transform: rotate('-180deg');
 }
 
@@ -373,28 +387,67 @@ body{
     color: black;
 }
 
-.image3_303{
+.image3_303 {
     width: 144px;
     height: 126px;
     margin: 58px 105px 48px 121px;
 }
-.H4_3_303{
-        //styleName: H4_3_303;
-        width: 175px;
-        height: 32px;
-        font-family: 'DM Serif Display', serif;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 0px;
-        text-align: left;
-        margin-top: 0%;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        color: black;
+
+.H4_3_303 {
+    //styleName: H4_3_303;
+    width: 175px;
+    height: 32px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: black;
 }
+@media screen and (min-width:100px) and (max-width:1300px) {
+    .main_303{
+        min-width: 425px;
+        height: 1632px;
+    }
+    .H2_303 {
+        width: 335px;
+        height: auto;
+        //styleName: H3;
+        font-family: 'DM Serif Display', serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 30px;
 
+    }
 
+    .Text_Big_303 {
+        //styleName: Text_Big_303;
+        width: 346px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .cards_303 {
+        gap: 16px;
+        flex-direction: column;
+    }
+    .card_303{
+        width: 346px;
+        height: auto;
+        margin: auto;
+    }
+    .Text_grey_303{
+        width: 282px;
+        height: auto;
+    }
+}
 
 // saumya code
 .aliquip {
@@ -918,75 +971,79 @@ body{
 
 
 //footer Styling
-footer{
-    background-color: rgb(245,246,252);
+footer {
+    background-color: rgb(245, 246, 252);
     height: 400px;
     width: 100%;
     font-family: "DM-sans";
 
 
 
-    .soc{
+    .soc {
         display: flex;
-        gap:13px;
+        gap: 13px;
     }
-    .container{
+
+    .container {
         padding-top: 79px;
         display: flex;
-        height:320px;
-        width:100%;
-        
+        height: 320px;
+        width: 100%;
+
     }
 
 
-     .lastline{
-        background-color: rgb(245,246,252);
-        height:80px;
-        width:100%;
+    .lastline {
+        background-color: rgb(245, 246, 252);
+        height: 80px;
+        width: 100%;
         // border:1px solid brown;
         display: flex;
         font-family: "DM Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
 
-        #leftline{
-            margin-top:27px;
+        #leftline {
+            margin-top: 27px;
             margin-left: 135px;
             margin-bottom: 29px;
         }
-        #rightline{
+
+        #rightline {
             margin-right: 135px;
-            margin-top:27px ;
-            margin-left:787px;
-            
+            margin-top: 27px;
+            margin-left: 787px;
+
         }
-    
-
-     }
 
 
+    }
 
-    .soc{
+
+
+    .soc {
         margin-top: 18px;
     }
-    .footer-col{
+
+    .footer-col {
         flex-grow: 1;
     }
 
 
-    .logos{
+    .logos {
         flex-basis: 33.32%;
         margin-left: 135px;
         margin-top: 20px;
-       
-        .log{
+
+        .log {
             height: 32px;
             width: 62px;
         }
-        .des{
+
+        .des {
             height: 79px;
             width: 270px;
             color: var(--text-black-50, rgba(0, 0, 0, 0.50));
@@ -998,47 +1055,59 @@ color: var(--text-black-50, rgba(0, 0, 0, 0.50));
 
     }
 
-    .causae{
+    .causae {
         flex-basis: 16.66%;
 
     }
-     
-    .aperiri{
+
+    .aperiri {
         flex-basis: 16.66%;
     }
 
-    .post{
+    .post {
         flex-basis: 33.32%;
     }
 
 
-    a{
+    a {
         text-decoration: none;
-        color: var(--text-black-50, rgba(0, 0, 0, 0.50));;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        ;
     }
-   
-    .ti{
+
+    .ti {
         font-weight: 700;
     }
-    .post{
+
+    .post {
         display: flex;
         flex-direction: column;
-        gap:39px;
+        gap: 39px;
     }
 
-.picpost{
-    display:flex;
-    gap:30px;
-}
+    .picpost {
+        display: flex;
+        gap: 30px;
+    }
 
-.des{
-    font-family: "DM Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-}
+    .des {
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+    }
+
+
+    .desc {
+        height: 48px;
+        width: 270px;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        font-family: "DM Sans";
+    }
 
 .desc{
     width: 270px;
@@ -1057,3 +1126,10 @@ color: var(--text-black-50, rgba(0, 0, 0, 0.50));
 }
 
 
+    .date {
+        font-family: "DM Sans";
+        font-size: 12px;
+
+        font-weight: 700;
+        line-height: 24px;
+    }
