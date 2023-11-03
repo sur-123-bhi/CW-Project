@@ -164,7 +164,7 @@
   font-family: DM Serif Display;
   font-size: 24px;
   font-weight: 400;
-  margin-top: 0;
+  margin: 0;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers h2 {
   color: var(--Text_White, #FFF);
@@ -187,6 +187,7 @@
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div {
   height: 50%;
   width: 38%;
+  border: 2px solid blue;
   box-sizing: border-box;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div button {
@@ -200,27 +201,15 @@
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #pinkBackGroundCont {
   border-radius: 5px;
   background: url("./pink-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
-  padding-left: 12%;
-  padding-top: 10%;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont {
   height: fit-content;
-  width: 32%;
-}
-#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont button {
-  padding: 5% 10%;
-  color: white;
-  font-size: 16px;
-  font-weight: 900;
-  cursor: pointer;
-  border: 1px solid white;
-  background-color: transparent;
+  width: 35%;
+  border: 1px solid black;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #skyblueBackGroundCont {
   border-radius: 5px;
   background: url("./skyblue-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
-  padding-left: 12%;
-  padding-top: 10%;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #buttonContainer {
   height: 30vh;
@@ -284,4 +273,4 @@
   margin-top: 7%;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css%5D.map */
