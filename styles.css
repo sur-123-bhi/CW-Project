@@ -695,6 +695,69 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-top: 7%;
+}
+
+#novumContainer {
+  width: 100%;
+  height: 200vh;
+  border: 2px solid black;
+  padding: 0px 135px;
+  box-sizing: border-box;
+}
+#novumContainer #firstInnerCont {
+  width: 100%;
+  height: 120vh;
+  border: 1px solid blue;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont {
+  width: 100%;
+  height: 80%;
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2%;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont, #novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont {
+  width: 100%;
+  height: 30%;
+  border: 1px solid fuchsia;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont .cards {
+  width: 100%;
+  height: 70%;
+  border: 2px solid red;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardImgCont {
+  height: 60%;
+  width: 90%;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardImgCont img {
+  width: 100%;
+  height: 100%;
+}
+#novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardContentCont {
+  height: 40%;
+  width: 100%;
+}
+#novumContainer #secInnerCont {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#novumContainer #secInnerCont #secContOuterAlignCont {
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2%;
+  border: 1px solid purple;
+}
+#novumContainer #secInnerCont #secContOuterAlignCont div .img-cont {
+  width: 100%;
+  height: 100%;
+}
 
 footer {
   background-color: rgb(245, 246, 252);
