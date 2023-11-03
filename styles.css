@@ -510,6 +510,192 @@ body {
   margin-top: 40px;
 }
 
+#molestiae-section {
+  width: 100%;
+  height: 345vh;
+  position: relative;
+}
+#molestiae-section #blueContainer {
+  width: 100%;
+  height: 120vh;
+  background-color: #434CCC;
+  display: flex;
+  justify-content: center;
+}
+#molestiae-section #blueContainer div {
+  color: white;
+  width: 38%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#molestiae-section #blueContainer div #head-molestie {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 4.8px;
+}
+#molestiae-section #blueContainer div #heading-h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  margin: 0;
+}
+#molestiae-section #blueContainer div #para {
+  font-size: 20px;
+  font-weight: 400;
+}
+#molestiae-section #whiteContainer {
+  width: 100%;
+  height: 225vh;
+  padding: 0px 135px;
+  box-sizing: border-box;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer {
+  height: 240vh;
+  width: 80%;
+  top: 60vh;
+  position: absolute;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers {
+  height: 150vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 2%;
+  grid-column-gap: 2%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers p {
+  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+  font-size: 16px;
+  font-weight: 400;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers h4 {
+  color: var(--Text_White, #FFF);
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers h2 {
+  color: var(--Text_White, #FFF);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 6%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont {
+  border-radius: 5px;
+  background: url("./yellow-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+  grid-area: 1/1/2/3;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 8%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div {
+  height: 50%;
+  width: 38%;
+  box-sizing: border-box;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div button {
+  padding: 2% 6%;
+  background-color: #F1B505;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid white;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #pinkBackGroundCont {
+  border-radius: 5px;
+  background: url("./pink-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+  padding-left: 12%;
+  padding-top: 10%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont {
+  height: fit-content;
+  width: 32%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont button {
+  padding: 5% 10%;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #skyblueBackGroundCont {
+  border-radius: 5px;
+  background: url("./skyblue-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+  padding-left: 12%;
+  padding-top: 10%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #buttonContainer {
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #buttonContainer button {
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 13px 49px;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container div {
+  width: 50%;
+  height: 100%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer img {
+  width: 90%;
+  height: 100%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer {
+  height: 60%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 8%;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer p {
+  font-size: 20px;
+  font-weight: 400;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer h4 {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 7%;
+
 footer {
   background-color: rgb(245, 246, 252);
   height: 400px;
