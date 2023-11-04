@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 //header top blue part
 #topBannerAndNavBar {
     background-color: #434CCC;
@@ -236,38 +237,37 @@ body {
     background-color: #FFDD78;
     display: flex;
     flex-direction: column;
+}
+.H2_303 {
+    //styleName: H2_303;
+    width: 469px;
+    height: 64px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .H2_303 {
-        //styleName: H2_303;
-        width: 469px;
-        height: 64px;
-        font-family: 'DM Serif Display', serif;
-        font-size: 56px;
-        font-weight: 400;
-        line-height: 64px;
-        letter-spacing: 0px;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Text_Big_303 {
-        //styleName: Text_Big_303;
-        width: 570px;
-        height: 83px;
-        font-family: 'DM Sans', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 0px;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 36px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.Text_Big_303 {
+    //styleName: Text_Big_303;
+    width: 570px;
+    height: 83px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards_303 {
@@ -456,6 +456,7 @@ body {
     background-color: #f5f6fc;
     border: 1px solid white;
     direction: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 
     // child 1
@@ -670,6 +671,210 @@ body {
         }
     }
 }
+//saumya code for container 6
+#scriptorem {
+    width: 100%;
+    height: 270vh;
+    background-color: #f5f6fc;
+    border: 1px solid white;
+    direction: flex;
+    flex-direction: column;
+
+    // .revsmain,1st and 3rd child
+    .revsmain2,.revsmain {
+        .revshead {
+            color: var(--Text_Black, #000);
+            text-align: center;
+
+            /* H5 */
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 4.8px;
+            text-transform: uppercase;
+            margin-top: 63px;
+        }
+
+        .revshead2 {
+            color: var(--Text_Black, #000);
+            text-align: center;
+
+            /* H2 */
+            font-family: DM Serif Display;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 64px;
+            /* 114.286% */
+            margin-top: 21px;
+        }
+
+        .revsp {
+            // width: 570px;
+            // height: 83px;
+            color: var(--Text_Black, #000);
+            text-align: center;
+
+            /* Text_Big */
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin-top: 20px;
+            
+        }
+    }
+    // 2nd child div
+    .revsflexbox{
+        display:flex;
+        gap:30px;
+        // width:100%;
+        // border:1px solid red;
+        height: 85vh;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 36px;
+        // margin-right:135px;
+        // margin-left:135px;
+        margin-left:135px;
+        margin-right:135px;
+        box-sizing: border-box;
+        >div{
+            // width: 370px;
+            height: 79vh;
+            border-radius: 5px;
+background: #FFF;
+
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+
+            // border:1px solid black;
+            // width: 370px;
+            // padding:23px 23px 0px 23px;
+            background-color: white;
+            img {
+                    // padding:23px;
+                    width: 285px;
+                    height: 285px;
+                    // border: 1px solid black;
+                    padding: 23px;
+                    border-radius: 50%;
+                }
+                         h4 {
+                             color: var(--Text_Black, #000);
+                             padding-left: 23px;
+                             /* H4 */
+                             font-family: DM Serif Display;
+                             font-size: 24px;
+                             font-style: normal;
+                             font-weight: 400;
+                             line-height: 32px;
+                             /* 133.333% */
+                             margin-top: 0px;
+                          }
+                        hr {
+                            // width: 338px;
+                            // height: 1px;
+                            margin-left: 23px;
+                            color: #e5e5e5;
+                        }
+            >div{
+                display:flex;
+                justify-content: space-between;
+                margin-left:23px;
+                // margin-right: 23px;
+                // border:1px solid black;
+                margin-right: 15px;
+                margin-top:0;
+                p {
+                 
+                        /* Text_Gray */
+                        font-family: DM Sans;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        
+                    }
+                  img {
+                                                            
+                       width: 65px;
+                       height: 28px;
+                    //    border:1px solid green; 
+                       margin-top:-8px;
+                    
+                       margin-top: -8px;
+                       padding-right: 0px;
+                       }
+                        
+                    
+               
+                }
+
+            }
+            
+           }
+           //4th child grid{
+            .revsgrid{
+                display:grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+                gap:24px 22px;
+                margin-left:135px;
+                margin-right:135px;
+                margin-top: 52px;;
+                >div{
+                    width: 340px;
+height: 144px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+display:flex;
+img{
+    // margin:24px 25px 63px 32px;
+    margin: 32px 22px 63px 23px;
+    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+    width: 43px;
+height: 49px;
+}
+.revsheadgrid{
+    color: var(--Text_Black, #000);
+
+/* H4 */
+font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+
+margin-top: 22px;
+}
+.revspgrid{
+    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+margin-right: 28px;
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-top: -24px;
+}
+                }
+            }
+          
+    }
 
 //Surbhi-second-container
 
@@ -1101,7 +1306,7 @@ hr{
 
 //Surbhi's third container
 
-#novumContainer{
+#novumContainer {
 
     width: 100%;
     height: 185vh;
@@ -1110,31 +1315,35 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     font-family: DM Sans;
 
-    #firstInnerCont{
+    #firstInnerCont {
         width: 100%;
         height: 110vh;
 
-        #firstContsOuterAlignCont{
+        #firstContsOuterAlignCont {
             width: 100%;
             height: 75%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 3%;
 
-            #headingAndParaCont, #buttonCont{
+            #headingAndParaCont,
+            #buttonCont {
                 width: 100%;
                 height: 30%;
                 box-sizing: border-box;
             }
-            #headingAndParaCont{
+
+            #headingAndParaCont {
                 padding-top: 6%;
-                h5{
+
+                h5 {
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: 4.8px;
                     margin-bottom: 0;
                 }
-                h2{
+
+                h2 {
                     font-family: DM Serif Display;
                     font-size: 50px;
                     font-weight: 400;
@@ -1142,11 +1351,12 @@ hr{
                 }
             }
 
-            #buttonCont{
+            #buttonCont {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                button{
+
+                button {
                     border-radius: 5px;
                     border: 1px solid var(--Primary_1, #434CCC);
                     padding: 2% 5%;
@@ -1158,99 +1368,109 @@ hr{
                 }
             }
 
-            .cards{
-               width: 100%;
-               height: 70%;
-               box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-               border: 1px solid white;
-               .cardImgCont{
+            .cards {
+                width: 100%;
+                height: 70%;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                border: 1px solid white;
+
+                .cardImgCont {
                     height: 60%;
                     width: 90%;
                     margin-left: 5%;
                     margin-top: 5%;
 
-                    img{
+                    img {
                         width: 100%;
                         height: 90%;
                     }
-               }
-               .cardContentCont{
+                }
+
+                .cardContentCont {
                     height: 35%;
                     width: 100%;
                     padding-left: 5%;
                     box-sizing: border-box;
 
-                    p{
+                    p {
                         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                         font-size: 16px;
                         font-weight: 400;
                         margin-bottom: 3%;
                         margin-top: 0px;
                     }
-                    h4{
+
+                    h4 {
                         font-family: DM Serif Display;
                         font-size: 24px;
                         font-weight: 400;
                         margin-top: 0;
                         margin-bottom: 4%;
                     }
-                    .horizontal-partition-container{     
+
+                    .horizontal-partition-container {
                         border-top: 1px solid rgb(180, 180, 180);
                         height: 30%;
                         display: flex;
                         align-items: flex-end;
-                        a{
+
+                        a {
                             color: var(--Text_Black, #000);
                             font-size: 16px;
                             font-weight: 700;
                             text-decoration: none;
                         }
                     }
-               }
+                }
             }
         }
 
     }
-    #secInnerCont{
+
+    #secInnerCont {
         width: 100%;
         height: 75vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        #secContOuterAlignCont{
+        #secContOuterAlignCont {
             width: 100%;
             height: 52%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 2%;
 
-            #contentCont{
-                h5{
+            #contentCont {
+                h5 {
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: 4.8px;
                 }
-                h4{
+
+                h4 {
                     font-family: DM Serif Display;
                     font-size: 22px;
                     font-weight: 400;
                 }
-                #cameraIcon{
+
+                #cameraIcon {
                     padding: 3% 2% 1% 2%;
                     border: 1px solid rgb(79, 79, 160);
                     border-radius: 5px;
                 }
-                #graySpan{
+
+                #graySpan {
                     color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                     font-size: 16px;
                     font-weight: 400;
                 }
             }
 
-            div{
+            div {
                 box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-                .img-imgContent{
+
+                .img-imgContent {
                     width: fit-content;
                     height: fit-content;
                 }
