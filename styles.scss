@@ -110,8 +110,10 @@ body {
                 height: fit-content;
 
                 p {
-                    font-size: 16px;
-                    font-weight: 700;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 1px;
                 }
 
                 button {
@@ -1013,13 +1015,13 @@ margin-top: -24px;
 
 #molestiae-section {
     width: 100%;
-    height: 345vh;
+    height: 335vh;
     position: relative;
     font-family: DM Sans;
 
     #blueContainer {
         width: 100%;
-        height: 120vh;
+        height: 115vh;
         background-color: #434CCC;
         display: flex;
         justify-content: center;
@@ -1057,19 +1059,19 @@ margin-top: -24px;
 
     #whiteContainer {
         width: 100%;
-        height: 225vh;
+        height: 220vh;
         padding-left: 7%;
         padding-right: 7%;
         box-sizing: border-box;
 
         #overlapingImgContainer {
-            height: 240vh;
+            height: 230vh;
             width: 86%;
             top: 60vh;
             position: absolute;
 
             #gridContainers {
-                height: 150vh;
+                height: 140vh;
                 width: 100%;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -1101,7 +1103,8 @@ margin-top: -24px;
 
                 #yellowBackGroundCont {
                     border-radius: 5px;
-                    background: url("./yellow-background-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
+                    background: url("./bigger-yellow-back-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
+                    background-size: cover;
                     grid-area: 1/1/2/3;
                     box-sizing: border-box;
                     display: flex;
@@ -1130,11 +1133,12 @@ margin-top: -24px;
                     background: url("./pink-background-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
                     padding-left: 12%;
                     padding-top: 10%;
+                    background-size: cover;
                 }
 
                 .innerContentCont {
                     height: fit-content;
-                    width: 32%;
+                    width: 30%;
 
                     button {
                         padding: 5% 10%;
@@ -1152,6 +1156,7 @@ margin-top: -24px;
                     background: url("./skyblue-background-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
                     padding-left: 12%;
                     padding-top: 10%;
+                    background-size: cover;
                 }
             }
 
@@ -1176,12 +1181,9 @@ margin-top: -24px;
                 height: 80vh;
                 display: flex;
 
-                div {
+                #imgContainer {
                     width: 50%;
                     height: 100%;
-                }
-
-                #imgContainer {
                     img {
                         width: 90%;
                         height: 100%;
@@ -1189,13 +1191,15 @@ margin-top: -24px;
                 }
 
                 #contentContainer {
+                    width: 50%;
+                    height: 100%;
 
                     #headingContainer {
                         height: 60%;
                         width: 100%;
                         box-sizing: border-box;
 
-                        h2 {
+                        h3 {
                             font-family: DM Serif Display;
                             font-size: 56px;
                             font-weight: 400;
@@ -1227,6 +1231,140 @@ margin-top: -24px;
                             font-size: 16px;
                             font-weight: 400;
                             margin-top: 7%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:650px) {
+    #molestiae-section {
+        width: 100%;
+        height: 425vh;
+    
+        #blueContainer {
+            height: 100vh;
+
+            div {
+                width: 70%;
+                height: 40vh;
+    
+                #heading-h2 {
+                    font-size: 40px;
+                }
+            }
+        }
+        #whiteContainer {
+            width: 100%;
+            height: 325vh;
+            padding: 0% 5%;
+
+            #overlapingImgContainer {
+                height: 385vh;
+                width: 90%;
+                top: 40vh;
+        
+                #gridContainers {
+                    height: 220vh;
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-row-gap: 1%;
+
+                    h4{
+                        font-size: 28px;
+                    }
+    
+                    h2 {
+                        font-size: 40px;
+                    }
+    
+                    #yellowBackGroundCont {
+                        background: url("./yellow-background-img.png"), lightgray 0px 0px / 100% 100%;
+                        background-size: cover;
+                        grid-area: 1/1/2/2;
+                        justify-content: center;
+                        align-items: flex-start;
+                        padding-left: 0%;
+                        padding-top: 8%;
+    
+                        div {
+                            height: 70%;
+                            width: 80%;
+    
+                            button {
+                                padding: 3% 10%;
+                            }
+                        }
+                    }
+    
+                    #pinkBackGroundCont {
+                        background: url("./small-pink-background-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
+                        background-size: cover;
+                    }
+    
+                    .innerContentCont {
+                        height: fit-content;
+                        width: 32%;
+    
+                    }
+    
+                    #skyblueBackGroundCont {
+                        background: url("./small-skyblue-background-img.png"), lightgray 0px 0px / 100% 100% no-repeat;
+                        background-size: cover;
+                    }
+                }
+    
+                #buttonContainer {
+                    height: 22vh;
+                    padding-top: 15%;
+                    box-sizing: border-box;
+                }
+    
+                #sec-Img-Content-Container {
+                    width: 100%;
+                    height: 140vh;
+                    display: flex;
+                    flex-direction: column;
+    
+                    #imgContainer {
+                        height: 60vh;
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+    
+                    #contentContainer {
+                        height: 80vh;
+                        width: 100%;
+                        padding: 0% 7%;
+                        box-sizing: border-box;
+
+                        #headingContainer {
+                            width: 90%;
+                            height: 40%;
+                            box-sizing: border-box;
+                            padding-top: 10%;
+                            
+                            h3 {
+                                font-size: 40px;
+                                line-height: 48px; 
+                            }
+                            p{
+                                line-height: 32px;
+                                text-align: justify;
+                            }
+                        }
+    
+                        #cardContainer {
+                            height: 60%;
+                            width: 90%;
+                            display: flex;
+                            flex-direction: column;
                         }
                     }
                 }

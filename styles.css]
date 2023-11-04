@@ -22,7 +22,6 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid green;
 }
 #topBannerAndNavBar nav #logoContainer #mainLogo {
   width: 75%;
@@ -36,7 +35,6 @@ body {
   justify-content: flex-end;
   align-items: center;
   gap: 4%;
-  border: 2px solid red;
 }
 #topBannerAndNavBar nav #navLinksContainer a {
   font-size: 16px;
@@ -54,24 +52,23 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-#topBannerAndNavBar nav #navLinksContainer #menuIcon {
-  width: 20px;
-  height: 20px;
+#topBannerAndNavBar nav #menuIcon {
+  width: 20%;
+  height: 20%;
+  display: none;
 }
-#topBannerAndNavBar nav #navLinksContainer #hideLinksContainer {
-  background-color: black;
+#topBannerAndNavBar nav #hideLinksContainer {
+  background-color: rgb(223, 223, 48);
   top: 15vh;
-  right: 1vh;
+  right: 0;
   position: absolute;
-  width: 100%;
-  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   display: none;
 }
-#topBannerAndNavBar nav #navLinksContainer #hideLinksContainer a {
+#topBannerAndNavBar nav #hideLinksContainer a {
   font-size: 25px;
 }
 #topBannerAndNavBar #surbhiTopBlueBanner {
@@ -123,6 +120,103 @@ body {
   height: 95%;
 }
 
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #topBannerAndNavBar {
+    padding: 0% 5%;
+    width: 100%;
+    height: 105vh;
+  }
+  #topBannerAndNavBar nav {
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  #topBannerAndNavBar nav #logoContainer {
+    width: 50%;
+  }
+  #topBannerAndNavBar nav #logoContainer #mainLogo {
+    width: 45%;
+    height: 70%;
+  }
+  #topBannerAndNavBar nav #navLinksContainer {
+    display: none;
+  }
+  #topBannerAndNavBar nav #menuIcon {
+    width: 20%;
+    height: 20%;
+    transition: transform 0.2s;
+    display: block;
+  }
+  #topBannerAndNavBar nav #menuIcon:hover {
+    transform: scale(1.5);
+  }
+  #topBannerAndNavBar nav #menuIcon:hover ~ #hideLinksContainer {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #topBannerAndNavBar nav #hideLinksContainer {
+    width: 60%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+  #topBannerAndNavBar nav #hideLinksContainer a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent #paraBeforeHeading {
+    font-size: 14px;
+    margin: 0;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent h1 {
+    font-size: 56px;
+    margin: 0;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div {
+    width: 90%;
+    height: fit-content;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div button {
+    padding: 5% 15%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10%;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg {
+    width: 100%;
+    height: 50%;
+    padding-top: 4%;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg img {
+    width: 100%;
+    height: 95%;
+  }
+}
 .bot {
   height: 656px;
   width: 100%;
@@ -815,7 +909,8 @@ body {
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont {
   border-radius: 5px;
-  background: url("./yellow-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+  background: url("./bigger-yellow-back-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+  background-size: cover;
   grid-area: 1/1/2/3;
   box-sizing: border-box;
   display: flex;
@@ -880,7 +975,7 @@ body {
   height: 80vh;
   display: flex;
 }
-#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container div {
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer {
   width: 50%;
   height: 100%;
 }
@@ -888,12 +983,16 @@ body {
   width: 90%;
   height: 100%;
 }
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer {
+  width: 50%;
+  height: 100%;
+}
 #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer {
   height: 60%;
   width: 100%;
   box-sizing: border-box;
 }
-#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer h2 {
+#molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer h3 {
   font-family: DM Serif Display;
   font-size: 56px;
   font-weight: 400;
@@ -923,6 +1022,145 @@ body {
   margin-top: 7%;
 }
 
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #molestiae-section {
+    width: 100%;
+    height: 500vh;
+  }
+  #molestiae-section #blueContainer {
+    height: 100vh;
+  }
+  #molestiae-section #blueContainer div {
+    width: 70%;
+    height: 40vh;
+  }
+  #molestiae-section #blueContainer div #heading-h2 {
+    font-size: 40px;
+  }
+  #molestiae-section #whiteContainer {
+    width: 100%;
+    height: 400vh;
+    padding: 0% 5%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer {
+    height: 400vh;
+    width: 90%;
+    top: 40vh;
+    border: 1px solid black;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers {
+    height: 220vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 1%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers h4 {
+    font-size: 28px;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers h2 {
+    font-size: 40px;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont {
+    background: url("./yellow-background-img.png"), lightgray 0px 0px/100% 100%;
+    background-size: cover;
+    grid-area: 1/1/2/2;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 0%;
+    padding-top: 8%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div {
+    height: 70%;
+    width: 80%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #yellowBackGroundCont div button {
+    padding: 3% 10%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #pinkBackGroundCont {
+    background: url("./small-pink-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+    background-size: cover;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont {
+    height: fit-content;
+    width: 32%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont button {
+    padding: 5% 10%;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid rgb(199, 195, 195);
+    background-color: transparent;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #skyblueBackGroundCont {
+    background: url("./small-skyblue-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
+    background-size: cover;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #buttonContainer {
+    height: 22vh;
+    padding-top: 15%;
+    box-sizing: border-box;
+    border: 1px solid green;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer {
+    height: 60vh;
+    width: 100%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer img {
+    width: 100%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer {
+    height: 80vh;
+    width: 100%;
+    padding: 0% 7%;
+    box-sizing: border-box;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer {
+    width: 90%;
+    height: 40%;
+    box-sizing: border-box;
+    padding-top: 10%;
+    border: 1px solid red;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer h3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer p {
+    line-height: 32px;
+    text-align: justify;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer {
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid blue;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer h4 {
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer p {
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 7%;
+    line-height: 10%;
+  }
+}
 .container_194 {
   background-color: #434CCC;
   display: flex;
