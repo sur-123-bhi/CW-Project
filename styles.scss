@@ -1005,6 +1005,100 @@ body {
 }
 
 
+
+//praveen's petentium
+.pet{
+    height: 625px;
+    width: 100%;
+   
+
+
+    #petentium{
+        font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 430;
+line-height: 24px; 
+letter-spacing: 4.8px;
+color: var(--Text_Black, #000);
+
+text-transform: uppercase;
+margin-left: 660px;
+margin-right: 657px;
+    }
+
+    #cot{
+font-family: "DM Serif Display";
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+color: var(--Text_Black, #000);
+margin-left: 556px;
+margin-right: 555px;
+margin-top: 21px;
+    }
+
+    #zril{
+        width: 570px;
+     height: 83px;
+     color: var(--Text_Black, #000); 
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 450;
+line-height: 32px;
+margin-left: 435px;
+margin-right: 435px;
+margin-top: 29px;
+    }
+
+
+    .petlogos{
+        display: flex;
+        gap:30px;
+        margin-left:135px;
+        margin-right: 135px;
+        margin-top: 55px;
+    }
+
+
+
+#cont{
+    width: 170px;
+height: 48px;
+border-radius: 5px;
+border: 1px solid rgb(193, 185, 185);
+
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+background-color: white;
+color:  #434CCC;
+margin-top: 72px;
+margin-left: 635px;
+margin-right: 635px;
+
+}
+
+
+hr{
+    height:1px;
+    width:100%;
+    color:rgb(221,222,227) ;
+    margin-top: 96px;
+}
+
+}
+
+
+
+
+
 //Surbhi's third container
 
 #novumContainer{
