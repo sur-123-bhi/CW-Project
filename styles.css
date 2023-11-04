@@ -102,92 +102,6 @@ body {
   height: 95%;
 }
 
-.bot {
-  height: 656px;
-  width: 100%;
-  background-color: #434CCC;
-  display: flex;
-}
-.bot #location {
-  height: 464px;
-  width: 570px;
-  position: relative;
-  left: 115px;
-  top: 100px;
-}
-.bot .detail {
-  position: relative;
-  height: 464px;
-  width: 569px;
-  top: 100px;
-  left: 200px;
-}
-.bot .largeimage {
-  height: 464px;
-  width: 570px;
-}
-.bot .smallimage {
-  position: absolute;
-  width: 72px;
-  height: 72px;
-  top: 44%;
-  left: 46%;
-}
-.bot #anc {
-  height: 24px;
-  width: 107px;
-  font-family: "DM Sans", sans-serif;
-  color: #FFFFFF;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 30%;
-}
-.bot #SC {
-  font-family: "DM Serif Display";
-  width: 268px;
-  line-height: 64px;
-  font-size: 56px;
-  color: white;
-  margin-top: 21px;
-  font-weight: 400;
-}
-.bot #mail {
-  height: 76px;
-  width: 470px;
-  margin-top: 24px;
-}
-.bot #email {
-  width: 100%;
-  padding-bottom: 12px;
-  padding-top: 15px;
-  padding-left: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.bot #msg {
-  height: 124px;
-  width: 470px;
-}
-.bot #message {
-  width: 480px;
-  height: 96px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.bot button {
-  margin-top: 48px;
-  height: 48px;
-  width: 170px;
-  color: white;
-  background-color: #F1B505;
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-  border-radius: 5px;
-  border: #F1B505;
-}
-
 .main_303 {
   width: 100%;
   height: 768px;
@@ -1217,6 +1131,92 @@ body {
 #novumContainer #secInnerCont #secContOuterAlignCont div .img-imgContent {
   width: fit-content;
   height: fit-content;
+}
+
+.bot {
+  height: 656px;
+  width: 100%;
+  background-color: #434CCC;
+  display: flex;
+}
+.bot #location {
+  height: 464px;
+  width: 570px;
+  position: relative;
+  left: 115px;
+  top: 100px;
+}
+.bot .detail {
+  position: relative;
+  height: 464px;
+  width: 569px;
+  top: 100px;
+  left: 200px;
+}
+.bot .largeimage {
+  height: 464px;
+  width: 570px;
+}
+.bot .smallimage {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 44%;
+  left: 46%;
+}
+.bot #anc {
+  height: 24px;
+  width: 107px;
+  font-family: "DM Sans", sans-serif;
+  color: #FFFFFF;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 30%;
+}
+.bot #SC {
+  font-family: "DM Serif Display";
+  width: 268px;
+  line-height: 64px;
+  font-size: 56px;
+  color: white;
+  margin-top: 21px;
+  font-weight: 400;
+}
+.bot #mail {
+  height: 76px;
+  width: 470px;
+  margin-top: 24px;
+}
+.bot #email {
+  width: 100%;
+  padding-bottom: 12px;
+  padding-top: 15px;
+  padding-left: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.bot #msg {
+  height: 124px;
+  width: 470px;
+}
+.bot #message {
+  width: 480px;
+  height: 96px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.bot button {
+  margin-top: 48px;
+  height: 48px;
+  width: 170px;
+  color: white;
+  background-color: #F1B505;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  border: #F1B505;
 }
 
 footer {
