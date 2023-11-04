@@ -10,6 +10,8 @@ body {
     height: 120vh;
     color: white;
     font-family: DM Sans;
+    padding: 0% 7%;
+    box-sizing: border-box;
 
     nav {
         width: 100%;
@@ -17,26 +19,25 @@ body {
         display: flex;
 
         #logoContainer {
-            width: 20%;
+            width: 10%;
             height: 100%;
             display: flex;
             align-items: center;
-
+    
             #mainLogo {
-                width: 45%;
-                height: 100%;
-                margin-left: 28%;
+                width: 75%;
+                height: 80%;
+                border-radius: 50%;
             }
         }
 
         #navLinksContainer {
-            width: 80%;
+            width: 90%;
             height: 100%;
             display: flex;
             justify-content: flex-end;
             align-items: center;
             gap: 4%;
-            padding-right: 7%;
 
             a {
                 font-size: 16px;
@@ -56,14 +57,34 @@ body {
                 cursor: pointer;
             }
         }
+        #menuIcon{
+            width: 20%;
+            height: 20%;
+            display: none;
+            
+        }
+
+        #hideLinksContainer{
+            background-color: rgb(223, 223, 48);
+            top: 15vh;
+            right: 0;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            display: none;
+
+            a{
+                font-size: 25px;
+            }
+        }
     }
 
     #surbhiTopBlueBanner {
         width: 100%;
         height: 105vh;
         display: flex;
-        padding-left: 7%;
-        padding-right: 7%;
         box-sizing: border-box;
 
         #topBannerContent {
@@ -116,6 +137,118 @@ body {
             }
         }
 
+    }
+}
+@media screen and (min-width:100px) and (max-width:650px) {
+   
+    #topBannerAndNavBar {
+        padding: 0% 5%;
+        width: 100%;
+        height: 105vh;
+        nav {
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+               
+            #logoContainer {
+                width: 50%;
+        
+                #mainLogo {
+                    width: 45%;
+                    height: 70%;
+                }
+            }
+    
+            #navLinksContainer {
+                display: none;
+            }
+            #menuIcon{
+                width: 20%;
+                height: 20%;
+                transition: transform .2s;
+                display: block;
+                
+            }
+            #menuIcon:hover{
+                transform: scale(1.5); 
+            }
+            #menuIcon:hover ~ #hideLinksContainer{
+                display: block;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }   
+            #hideLinksContainer{
+                width: 60%;
+                height: 40vh;
+                border-radius: 10px;
+                a{
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        #surbhiTopBlueBanner {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+    
+            #topBannerContent {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-sizing: border-box;
+        
+                #paraBeforeHeading {
+                    font-size: 14px;
+                    margin: 0;
+                }
+    
+                h1 {
+                    font-size: 56px;
+                    margin: 0;
+                }
+    
+                div {
+                    width: 90%;
+                    height: fit-content;
+    
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+    
+                    button {
+                        padding: 5% 15%;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-top: 10%;
+                    }
+                }
+            }
+    
+            #topBannerImg {
+                width: 100%;
+                height: 50%;
+                padding-top: 4%;
+    
+                img {
+                    width: 100%;
+                    height: 95%;
+                }
+            }
+    
+        }
     }
 }
 

@@ -29,7 +29,7 @@ body {
   border-radius: 50%;
 }
 #topBannerAndNavBar nav #navLinksContainer {
-  width: 90%;
+  width: 80%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -52,16 +52,23 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-#topBannerAndNavBar nav #menuIcon {
+#topBannerAndNavBar nav #menuIconCont {
+  display: none;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+}
+#topBannerAndNavBar nav #menuIconCont #menuIcon {
   width: 20%;
   height: 20%;
-  display: none;
 }
 #topBannerAndNavBar nav #hideLinksContainer {
-  background-color: rgb(223, 223, 48);
+  background-color: black;
   top: 15vh;
-  right: 0;
+  right: 1vh;
   position: absolute;
+  width: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -120,103 +127,6 @@ body {
   height: 95%;
 }
 
-@media screen and (min-width: 100px) and (max-width: 650px) {
-  #topBannerAndNavBar {
-    padding: 0% 5%;
-    width: 100%;
-    height: 105vh;
-  }
-  #topBannerAndNavBar nav {
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  #topBannerAndNavBar nav #logoContainer {
-    width: 50%;
-  }
-  #topBannerAndNavBar nav #logoContainer #mainLogo {
-    width: 45%;
-    height: 70%;
-  }
-  #topBannerAndNavBar nav #navLinksContainer {
-    display: none;
-  }
-  #topBannerAndNavBar nav #menuIcon {
-    width: 20%;
-    height: 20%;
-    transition: transform 0.2s;
-    display: block;
-  }
-  #topBannerAndNavBar nav #menuIcon:hover {
-    transform: scale(1.5);
-  }
-  #topBannerAndNavBar nav #menuIcon:hover ~ #hideLinksContainer {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  #topBannerAndNavBar nav #hideLinksContainer {
-    width: 60%;
-    height: 40vh;
-    border-radius: 10px;
-  }
-  #topBannerAndNavBar nav #hideLinksContainer a {
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent #paraBeforeHeading {
-    font-size: 14px;
-    margin: 0;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent h1 {
-    font-size: 56px;
-    margin: 0;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div {
-    width: 90%;
-    height: fit-content;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div p {
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent div button {
-    padding: 5% 15%;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 10%;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg {
-    width: 100%;
-    height: 50%;
-    padding-top: 4%;
-  }
-  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg img {
-    width: 100%;
-    height: 95%;
-  }
-}
 .bot {
   height: 656px;
   width: 100%;
@@ -1467,4 +1377,4 @@ footer .date {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.cs.map */
