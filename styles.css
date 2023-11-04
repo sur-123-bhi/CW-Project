@@ -196,7 +196,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main_303 .H2_303 {
+
+.H2_303 {
   width: 469px;
   height: 64px;
   font-family: "DM Serif Display", serif;
@@ -210,7 +211,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.main_303 .Text_Big_303 {
+
+.Text_Big_303 {
   width: 570px;
   height: 83px;
   font-family: "DM Sans", sans-serif;
@@ -859,7 +861,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 3%;
 }
-#novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont, #novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont {
+#novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont,
+#novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont {
   width: 100%;
   height: 30%;
   box-sizing: border-box;

@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 //header top blue part
 #topBannerAndNavBar {
     background-color: #434CCC;
@@ -236,38 +237,37 @@ body {
     background-color: #FFDD78;
     display: flex;
     flex-direction: column;
+}
+.H2_303 {
+    //styleName: H2_303;
+    width: 469px;
+    height: 64px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .H2_303 {
-        //styleName: H2_303;
-        width: 469px;
-        height: 64px;
-        font-family: 'DM Serif Display', serif;
-        font-size: 56px;
-        font-weight: 400;
-        line-height: 64px;
-        letter-spacing: 0px;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .Text_Big_303 {
-        //styleName: Text_Big_303;
-        width: 570px;
-        height: 83px;
-        font-family: 'DM Sans', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 0px;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 36px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.Text_Big_303 {
+    //styleName: Text_Big_303;
+    width: 570px;
+    height: 83px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards_303 {
@@ -1007,7 +1007,7 @@ body {
 
 //Surbhi's third container
 
-#novumContainer{
+#novumContainer {
 
     width: 100%;
     height: 185vh;
@@ -1016,31 +1016,35 @@ body {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     font-family: DM Sans;
 
-    #firstInnerCont{
+    #firstInnerCont {
         width: 100%;
         height: 110vh;
 
-        #firstContsOuterAlignCont{
+        #firstContsOuterAlignCont {
             width: 100%;
             height: 75%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 3%;
 
-            #headingAndParaCont, #buttonCont{
+            #headingAndParaCont,
+            #buttonCont {
                 width: 100%;
                 height: 30%;
                 box-sizing: border-box;
             }
-            #headingAndParaCont{
+
+            #headingAndParaCont {
                 padding-top: 6%;
-                h5{
+
+                h5 {
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: 4.8px;
                     margin-bottom: 0;
                 }
-                h2{
+
+                h2 {
                     font-family: DM Serif Display;
                     font-size: 50px;
                     font-weight: 400;
@@ -1048,11 +1052,12 @@ body {
                 }
             }
 
-            #buttonCont{
+            #buttonCont {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                button{
+
+                button {
                     border-radius: 5px;
                     border: 1px solid var(--Primary_1, #434CCC);
                     padding: 2% 5%;
@@ -1064,99 +1069,109 @@ body {
                 }
             }
 
-            .cards{
-               width: 100%;
-               height: 70%;
-               box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-               border: 1px solid white;
-               .cardImgCont{
+            .cards {
+                width: 100%;
+                height: 70%;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                border: 1px solid white;
+
+                .cardImgCont {
                     height: 60%;
                     width: 90%;
                     margin-left: 5%;
                     margin-top: 5%;
 
-                    img{
+                    img {
                         width: 100%;
                         height: 90%;
                     }
-               }
-               .cardContentCont{
+                }
+
+                .cardContentCont {
                     height: 35%;
                     width: 100%;
                     padding-left: 5%;
                     box-sizing: border-box;
 
-                    p{
+                    p {
                         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                         font-size: 16px;
                         font-weight: 400;
                         margin-bottom: 3%;
                         margin-top: 0px;
                     }
-                    h4{
+
+                    h4 {
                         font-family: DM Serif Display;
                         font-size: 24px;
                         font-weight: 400;
                         margin-top: 0;
                         margin-bottom: 4%;
                     }
-                    .horizontal-partition-container{     
+
+                    .horizontal-partition-container {
                         border-top: 1px solid rgb(180, 180, 180);
                         height: 30%;
                         display: flex;
                         align-items: flex-end;
-                        a{
+
+                        a {
                             color: var(--Text_Black, #000);
                             font-size: 16px;
                             font-weight: 700;
                             text-decoration: none;
                         }
                     }
-               }
+                }
             }
         }
 
     }
-    #secInnerCont{
+
+    #secInnerCont {
         width: 100%;
         height: 75vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        #secContOuterAlignCont{
+        #secContOuterAlignCont {
             width: 100%;
             height: 52%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 2%;
 
-            #contentCont{
-                h5{
+            #contentCont {
+                h5 {
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: 4.8px;
                 }
-                h4{
+
+                h4 {
                     font-family: DM Serif Display;
                     font-size: 22px;
                     font-weight: 400;
                 }
-                #cameraIcon{
+
+                #cameraIcon {
                     padding: 3% 2% 1% 2%;
                     border: 1px solid rgb(79, 79, 160);
                     border-radius: 5px;
                 }
-                #graySpan{
+
+                #graySpan {
                     color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                     font-size: 16px;
                     font-weight: 400;
                 }
             }
 
-            div{
+            div {
                 box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-                .img-imgContent{
+
+                .img-imgContent {
                     width: fit-content;
                     height: fit-content;
                 }
