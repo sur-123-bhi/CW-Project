@@ -120,113 +120,6 @@ body {
 }
 
 
-.bot {
-    height: 656px;
-    width: 100%;
-    background-color: #434CCC;
-    display: flex;
-
-    #location {
-        height: 464px;
-        width: 570px;
-        position: relative;
-        left: 115px;
-        top: 100px;
-    }
-
-    .detail {
-        position: relative;
-        height: 464px;
-        width: 569px;
-        top: 100px;
-        left: 200px;
-    }
-
-    .largeimage {
-        height: 464px;
-        width: 570px;
-    }
-
-    .smallimage {
-        position: absolute;
-        width: 72px;
-        height: 72px;
-        top: 44%;
-        left: 46%;
-    }
-
-
-    #anc {
-        height: 24px;
-        width: 107px;
-        font-family: 'DM Sans', sans-serif;
-
-        color: #FFFFFF;
-        size: 16px;
-        line-height: 24px;
-        letter-spacing: 30%;
-
-    }
-
-    #SC {
-        font-family: 'DM Serif Display';
-        width: 268px;
-        line-height: 64px;
-        font-size: 56px;
-        color: white;
-        margin-top: 21px;
-        font-weight: 400;
-
-
-    }
-
-
-    #mail {
-        height: 76px;
-        width: 470px;
-        margin-top: 24px;
-    }
-
-    #email {
-        width: 100%;
-        padding-bottom: 12px;
-        padding-top: 15px;
-        padding-left: 16px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-
-    #msg {
-        height: 124px;
-        width: 470px;
-
-    }
-
-    #message {
-        width: 480px;
-        height: 96px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-
-    button {
-        margin-top: 48px;
-        height: 48px;
-        width: 170px;
-        color: white;
-        background-color: #F1B505;
-        font-family: 'DM Sans';
-        font-size: 16px;
-        font-weight: 700;
-        text-align: center;
-        border-radius: 5px;
-        border: #F1B505;
-
-    }
-
-}
 
 //kundan part
 //Container2 Styling
@@ -1210,6 +1103,100 @@ margin-top: -24px;
 }
 
 
+
+//praveen's petentium
+.pet{
+    height: 625px;
+    width: 100%;
+   
+
+
+    #petentium{
+        font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 430;
+line-height: 24px; 
+letter-spacing: 4.8px;
+color: var(--Text_Black, #000);
+
+text-transform: uppercase;
+margin-left: 660px;
+margin-right: 657px;
+    }
+
+    #cot{
+font-family: "DM Serif Display";
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+color: var(--Text_Black, #000);
+margin-left: 556px;
+margin-right: 555px;
+margin-top: 21px;
+    }
+
+    #zril{
+        width: 570px;
+     height: 83px;
+     color: var(--Text_Black, #000); 
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 450;
+line-height: 32px;
+margin-left: 435px;
+margin-right: 435px;
+margin-top: 29px;
+    }
+
+
+    .petlogos{
+        display: flex;
+        gap:30px;
+        margin-left:135px;
+        margin-right: 135px;
+        margin-top: 55px;
+    }
+
+
+
+#cont{
+    width: 170px;
+height: 48px;
+border-radius: 5px;
+border: 1px solid rgb(193, 185, 185);
+
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+background-color: white;
+color:  #434CCC;
+margin-top: 72px;
+margin-left: 635px;
+margin-right: 635px;
+
+}
+
+
+hr{
+    height:1px;
+    width:100%;
+    color:rgb(221,222,227) ;
+    margin-top: 96px;
+}
+
+}
+
+
+
+
+
 //Surbhi's third container
 
 #novumContainer {
@@ -1385,6 +1372,118 @@ margin-top: -24px;
     }
 
 }
+
+
+.bot {
+    height: 656px;
+    width: 100%;
+    background-color: #434CCC;
+    display: flex;
+
+    #location {
+        height: 464px;
+        width: 570px;
+        position: relative;
+        left: 115px;
+        top: 100px;
+    }
+
+    .detail {
+        position: relative;
+        height: 464px;
+        width: 569px;
+        top: 100px;
+        left: 200px;
+    }
+
+    .largeimage {
+        height: 464px;
+        width: 570px;
+    }
+
+    .smallimage {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        top: 44%;
+        left: 46%;
+    }
+
+
+    #anc {
+        height: 24px;
+        width: 107px;
+        font-family: 'DM Sans', sans-serif;
+
+        color: #FFFFFF;
+        size: 16px;
+        line-height: 24px;
+        letter-spacing: 30%;
+
+    }
+
+    #SC {
+        font-family: 'DM Serif Display';
+        width: 268px;
+        line-height: 64px;
+        font-size: 56px;
+        color: white;
+        margin-top: 21px;
+        font-weight: 400;
+
+
+    }
+
+
+    #mail {
+        height: 76px;
+        width: 470px;
+        margin-top: 24px;
+    }
+
+    #email {
+        width: 100%;
+        padding-bottom: 12px;
+        padding-top: 15px;
+        padding-left: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    #msg {
+        height: 124px;
+        width: 470px;
+
+    }
+
+    #message {
+        width: 480px;
+        height: 96px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    button {
+        margin-top: 48px;
+        height: 48px;
+        width: 170px;
+        color: white;
+        background-color: #F1B505;
+        font-family: 'DM Sans';
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        border: #F1B505;
+
+    }
+
+}
+
+
+
 
 
 //footer Styling
