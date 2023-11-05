@@ -25,7 +25,11 @@ body {
 }
 #topBannerAndNavBar nav #logoContainer #mainLogo {
   width: 75%;
+<<<<<<< HEAD
+  height: 80%;
+=======
   height: 75%;
+>>>>>>> develop
   border-radius: 50%;
 }
 #topBannerAndNavBar nav #navLinksContainer {
@@ -58,7 +62,11 @@ body {
   display: none;
 }
 #topBannerAndNavBar nav #hideLinksContainer {
+<<<<<<< HEAD
+  background-color: rgb(223, 223, 48);
+=======
   background-color: #F1B505;
+>>>>>>> develop
   top: 15vh;
   right: 0;
   position: absolute;
@@ -126,7 +134,11 @@ body {
   #topBannerAndNavBar {
     padding: 0% 5%;
     width: 100%;
+<<<<<<< HEAD
+    height: 105vh;
+=======
     height: fit-content;
+>>>>>>> develop
   }
   #topBannerAndNavBar nav {
     align-items: center;
@@ -165,7 +177,11 @@ body {
     border-radius: 10px;
   }
   #topBannerAndNavBar nav #hideLinksContainer a {
+<<<<<<< HEAD
+    font-size: 25px;
+=======
     font-size: 20px;
+>>>>>>> develop
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -173,14 +189,22 @@ body {
   }
   #topBannerAndNavBar #surbhiTopBlueBanner {
     width: 100%;
+<<<<<<< HEAD
+    height: 90vh;
+=======
     height: fit-content;
+>>>>>>> develop
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
   }
   #topBannerAndNavBar #surbhiTopBlueBanner #topBannerContent {
     width: 100%;
+<<<<<<< HEAD
+    height: 50%;
+=======
     height: 60%;
+>>>>>>> develop
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -211,6 +235,102 @@ body {
   }
   #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg {
     width: 100%;
+<<<<<<< HEAD
+    height: 50%;
+    padding-top: 4%;
+  }
+  #topBannerAndNavBar #surbhiTopBlueBanner #topBannerImg img {
+    width: 100%;
+    height: 95%;
+  }
+}
+.bot {
+  height: 656px;
+  width: 100%;
+  background-color: #434CCC;
+  display: flex;
+}
+.bot #location {
+  height: 464px;
+  width: 570px;
+  position: relative;
+  left: 115px;
+  top: 100px;
+}
+.bot .detail {
+  position: relative;
+  height: 464px;
+  width: 569px;
+  top: 100px;
+  left: 200px;
+}
+.bot .largeimage {
+  height: 464px;
+  width: 570px;
+}
+.bot .smallimage {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 44%;
+  left: 46%;
+}
+.bot #anc {
+  height: 24px;
+  width: 107px;
+  font-family: "DM Sans", sans-serif;
+  color: #FFFFFF;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 30%;
+}
+.bot #SC {
+  font-family: "DM Serif Display";
+  width: 268px;
+  line-height: 64px;
+  font-size: 56px;
+  color: white;
+  margin-top: 21px;
+  font-weight: 400;
+}
+.bot #mail {
+  height: 76px;
+  width: 470px;
+  margin-top: 24px;
+}
+.bot #email {
+  width: 100%;
+  padding-bottom: 12px;
+  padding-top: 15px;
+  padding-left: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.bot #msg {
+  height: 124px;
+  width: 470px;
+}
+.bot #message {
+  width: 480px;
+  height: 96px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.bot button {
+  margin-top: 48px;
+  height: 48px;
+  width: 170px;
+  color: white;
+  background-color: #F1B505;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  border: #F1B505;
+}
+
+=======
     height: 40%;
     padding-top: 4%;
   }
@@ -219,6 +339,7 @@ body {
     height: fit-content;
   }
 }
+>>>>>>> develop
 .main_303 {
   width: 100%;
   height: 768px;
@@ -784,13 +905,21 @@ body {
 }
 #molestiae-section #whiteContainer {
   width: 100%;
+<<<<<<< HEAD
+  height: 225vh;
+=======
   height: 220vh;
+>>>>>>> develop
   padding-left: 7%;
   padding-right: 7%;
   box-sizing: border-box;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer {
+<<<<<<< HEAD
+  height: 240vh;
+=======
   height: 230vh;
+>>>>>>> develop
   width: 86%;
   top: 60vh;
   position: absolute;
@@ -852,11 +981,18 @@ body {
   background: url("./pink-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
   padding-left: 12%;
   padding-top: 10%;
+<<<<<<< HEAD
+}
+#molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont {
+  height: fit-content;
+  width: 32%;
+=======
   background-size: cover;
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont {
   height: fit-content;
   width: 30%;
+>>>>>>> develop
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont button {
   padding: 5% 10%;
@@ -872,7 +1008,10 @@ body {
   background: url("./skyblue-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
   padding-left: 12%;
   padding-top: 10%;
+<<<<<<< HEAD
+=======
   background-size: cover;
+>>>>>>> develop
 }
 #molestiae-section #whiteContainer #overlapingImgContainer #buttonContainer {
   height: 30vh;
@@ -943,21 +1082,39 @@ body {
 @media screen and (min-width: 100px) and (max-width: 650px) {
   #molestiae-section {
     width: 100%;
+<<<<<<< HEAD
+    height: 500vh;
+=======
     height: 492vh;
+>>>>>>> develop
   }
   #molestiae-section #blueContainer {
     height: 100vh;
   }
   #molestiae-section #blueContainer div {
     width: 70%;
+<<<<<<< HEAD
+    height: 40vh;
+=======
     height: fit-content;
     padding-top: 3%;
+>>>>>>> develop
   }
   #molestiae-section #blueContainer div #heading-h2 {
     font-size: 40px;
   }
   #molestiae-section #whiteContainer {
     width: 100%;
+<<<<<<< HEAD
+    height: 400vh;
+    padding: 0% 5%;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer {
+    height: 400vh;
+    width: 90%;
+    top: 40vh;
+    border: 1px solid black;
+=======
     height: fit-content;
     padding: 0% 5%;
   }
@@ -965,6 +1122,7 @@ body {
     height: fit-content;
     width: 90%;
     top: 55vh;
+>>>>>>> develop
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers {
     height: 220vh;
@@ -1004,6 +1162,18 @@ body {
     height: fit-content;
     width: 32%;
   }
+<<<<<<< HEAD
+  #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers .innerContentCont button {
+    padding: 5% 10%;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid rgb(199, 195, 195);
+    background-color: transparent;
+  }
+=======
+>>>>>>> develop
   #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers #skyblueBackGroundCont {
     background: url("./small-skyblue-background-img.png"), lightgray 0px 0px/100% 100% no-repeat;
     background-size: cover;
@@ -1012,22 +1182,38 @@ body {
     height: 22vh;
     padding-top: 15%;
     box-sizing: border-box;
+<<<<<<< HEAD
+    border: 1px solid green;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container {
+    width: 100%;
+    height: 140vh;
+=======
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container {
     width: 100%;
     height: 200vh;
+>>>>>>> develop
     display: flex;
     flex-direction: column;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer {
+<<<<<<< HEAD
+    height: 60vh;
+=======
     height: 30%;
+>>>>>>> develop
     width: 100%;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer img {
     width: 100%;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer {
+<<<<<<< HEAD
+    height: 80vh;
+=======
     height: 70%;
+>>>>>>> develop
     width: 100%;
     padding: 0% 7%;
     box-sizing: border-box;
@@ -1037,6 +1223,10 @@ body {
     height: 40%;
     box-sizing: border-box;
     padding-top: 10%;
+<<<<<<< HEAD
+    border: 1px solid red;
+=======
+>>>>>>> develop
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #headingContainer h3 {
     font-size: 40px;
@@ -1051,6 +1241,24 @@ body {
     width: 90%;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+    box-sizing: border-box;
+    border: 1px solid blue;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer h4 {
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer #cardContainer p {
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 7%;
+    line-height: 10%;
+=======
+>>>>>>> develop
   }
 }
 .container_194 {
@@ -1153,6 +1361,8 @@ body {
   height: 100%;
 }
 
+<<<<<<< HEAD
+=======
 .pet {
   height: 625px;
   width: 100%;
@@ -1225,6 +1435,7 @@ body {
   margin-top: 96px;
 }
 
+>>>>>>> develop
 #novumContainer {
   width: 100%;
   height: 185vh;
@@ -1370,6 +1581,8 @@ body {
   height: fit-content;
 }
 
+<<<<<<< HEAD
+=======
 @media screen and (min-width: 100px) and (max-width: 650px) {
   #novumContainer {
     height: fit-content;
@@ -1543,6 +1756,7 @@ body {
   border: #F1B505;
 }
 
+>>>>>>> develop
 footer {
   background-color: rgb(245, 246, 252);
   height: 400px;
@@ -1584,7 +1798,15 @@ footer .lastline #rightline {
 footer .soc {
   margin-top: 18px;
 }
+<<<<<<< HEAD
+footer .footer-col {
+  flex-grow: 1;
+}
 footer .logos {
+  flex-basis: 33.32%;
+=======
+footer .logos {
+>>>>>>> develop
   margin-left: 135px;
   margin-top: 20px;
 }
@@ -1601,6 +1823,16 @@ footer .logos .des {
   font-weight: 400;
   line-height: 24px;
 }
+<<<<<<< HEAD
+footer .causae {
+  flex-basis: 16.66%;
+}
+footer .aperiri {
+  flex-basis: 16.66%;
+}
+footer .post {
+  flex-basis: 33.32%;
+=======
 footer .combi {
   display: flex;
 }
@@ -1612,6 +1844,7 @@ footer .aperiri {
 }
 footer .post {
   margin-left: 120px;
+>>>>>>> develop
 }
 footer a {
   text-decoration: none;
@@ -1624,7 +1857,10 @@ footer .post {
   display: flex;
   flex-direction: column;
   gap: 39px;
+<<<<<<< HEAD
+=======
   margin-top: 20px;
+>>>>>>> develop
 }
 footer .picpost {
   display: flex;
@@ -1646,6 +1882,16 @@ footer .desc {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: "DM Sans";
 }
+<<<<<<< HEAD
+footer .desc {
+  width: 270px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+}
+=======
+>>>>>>> develop
 footer .date {
   font-family: "DM Sans";
   font-size: 12px;
@@ -1653,6 +1899,16 @@ footer .date {
   line-height: 24px;
 }
 
+<<<<<<< HEAD
+.date {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+=======
+>>>>>>> develop
 .container5_303 {
   background-color: #434ccc;
   width: 100%;
