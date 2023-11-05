@@ -139,5 +139,128 @@ header section p {
     cursor: pointer;
   }
 }
+footer {
+  background-color: rgb(245, 246, 252);
+  height: 400px;
+  width: 100%;
+  font-family: "DM-sans";
+}
+footer .soc {
+  display: flex;
+  gap: 13px;
+}
+footer .container {
+  padding-top: 79px;
+  display: flex;
+  height: 320px;
+  width: 100%;
+}
+footer .lastline {
+  background-color: rgb(245, 246, 252);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+}
+footer .lastline #leftline {
+  margin-top: 27px;
+  margin-left: 135px;
+  margin-bottom: 29px;
+}
+footer .lastline #rightline {
+  margin-right: 135px;
+  margin-top: 27px;
+  margin-left: 787px;
+}
+footer .soc {
+  margin-top: 18px;
+}
+footer .footer-col {
+  flex-grow: 1;
+}
+footer .logos {
+  flex-basis: 33.32%;
+  margin-left: 135px;
+  margin-top: 20px;
+}
+footer .logos .log {
+  height: 32px;
+  width: 62px;
+}
+footer .logos .des {
+  height: 79px;
+  width: 270px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .causae {
+  flex-basis: 16.66%;
+}
+footer .aperiri {
+  flex-basis: 16.66%;
+}
+footer .post {
+  flex-basis: 33.32%;
+}
+footer a {
+  text-decoration: none;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+}
+footer .ti {
+  font-weight: 700;
+}
+footer .post {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+footer .picpost {
+  display: flex;
+  gap: 30px;
+}
+footer .des {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+}
+footer .desc {
+  height: 48px;
+  width: 270px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+}
+footer .desc {
+  width: 270px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+}
+footer .date {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.date {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+}
 
 /*# sourceMappingURL=contact.css.map */
