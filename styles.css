@@ -58,7 +58,7 @@ body {
   display: none;
 }
 #topBannerAndNavBar nav #hideLinksContainer {
-  background-color: rgb(223, 223, 48);
+  background-color: #F1B505;
   top: 15vh;
   right: 0;
   position: absolute;
