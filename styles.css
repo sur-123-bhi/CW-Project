@@ -1029,27 +1029,28 @@ body {
 @media screen and (min-width: 100px) and (max-width: 650px) {
   #molestiae-section {
     width: 100%;
-    height: 425vh;
+    height: 492vh;
   }
   #molestiae-section #blueContainer {
     height: 100vh;
   }
   #molestiae-section #blueContainer div {
     width: 70%;
-    height: 40vh;
+    height: fit-content;
+    padding-top: 3%;
   }
   #molestiae-section #blueContainer div #heading-h2 {
     font-size: 40px;
   }
   #molestiae-section #whiteContainer {
     width: 100%;
-    height: 325vh;
+    height: fit-content;
     padding: 0% 5%;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer {
-    height: 385vh;
+    height: fit-content;
     width: 90%;
-    top: 40vh;
+    top: 50vh;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers {
     height: 220vh;
@@ -1100,19 +1101,19 @@ body {
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container {
     width: 100%;
-    height: 140vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer {
-    height: 60vh;
+    height: 30%;
     width: 100%;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #imgContainer img {
     width: 100%;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #sec-Img-Content-Container #contentContainer {
-    height: 80vh;
+    height: 70%;
     width: 100%;
     padding: 0% 7%;
     box-sizing: border-box;

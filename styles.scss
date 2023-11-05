@@ -1242,14 +1242,15 @@ margin-top: -24px;
 @media screen and (min-width:100px) and (max-width:650px) {
     #molestiae-section {
         width: 100%;
-        height: 425vh;
+        height: 492vh;
     
         #blueContainer {
             height: 100vh;
 
             div {
                 width: 70%;
-                height: 40vh;
+                height: fit-content;
+                padding-top: 3%;
     
                 #heading-h2 {
                     font-size: 40px;
@@ -1258,13 +1259,13 @@ margin-top: -24px;
         }
         #whiteContainer {
             width: 100%;
-            height: 325vh;
+            height: fit-content;
             padding: 0% 5%;
 
             #overlapingImgContainer {
-                height: 385vh;
+                height: fit-content;
                 width: 90%;
-                top: 40vh;
+                top: 50vh;
         
                 #gridContainers {
                     height: 220vh;
@@ -1326,12 +1327,12 @@ margin-top: -24px;
     
                 #sec-Img-Content-Container {
                     width: 100%;
-                    height: 140vh;
+                    height: 200vh;
                     display: flex;
                     flex-direction: column;
     
                     #imgContainer {
-                        height: 60vh;
+                        height: 30%;
                         width: 100%;
                         img {
                             width: 100%;
@@ -1339,7 +1340,7 @@ margin-top: -24px;
                     }
     
                     #contentContainer {
-                        height: 80vh;
+                        height: 70%;
                         width: 100%;
                         padding: 0% 7%;
                         box-sizing: border-box;
