@@ -224,6 +224,106 @@ header section p {
 }
 
 @media screen and (min-width: 100px) and (max-width: 650px) {
+  footer {
+    height: auto;
+    font-family: "DM-sans";
+  }
+  footer .container {
+    padding-top: 20px;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  footer .lastline {
+    height: auto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+  }
+  footer .lastline #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer .lastline #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  footer .logos {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  footer .logos .log {
+    height: 20px;
+    width: 40px;
+  }
+  footer .logos .des {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  footer .combi {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  footer .causae,
+  footer .aperiri {
+    width: 48%;
+  }
+  footer .causae {
+    margin-left: 10px;
+  }
+  footer .aperiri {
+    margin-left: 15px;
+  }
+  footer .post {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  footer .ti {
+    font-weight: 700;
+  }
+  footer .post {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer .picpost {
+    display: flex;
+    gap: 20px;
+  }
+  footer .des {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .desc {
+    height: auto;
+    width: 100%;
+  }
+  footer .date {
+    font-size: 12px;
+  }
+  footer .lastline {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  footer #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
   #yellow-3-Cont {
     height: fit-content;
     display: flex;
