@@ -146,7 +146,7 @@ body {
     #topBannerAndNavBar {
         padding: 0% 5%;
         width: 100%;
-        height: 105vh;
+        height: fit-content;
         nav {
             align-items: center;
             justify-content: space-between;
@@ -197,14 +197,14 @@ body {
     
         #surbhiTopBlueBanner {
             width: 100%;
-            height: 90vh;
+            height: fit-content;
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
     
             #topBannerContent {
                 width: 100%;
-                height: 50%;
+                height: 60%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -241,12 +241,12 @@ body {
     
             #topBannerImg {
                 width: 100%;
-                height: 50%;
+                height: 40%;
                 padding-top: 4%;
     
                 img {
-                    width: 100%;
-                    height: 95%;
+                    width: 98%;
+                    height: fit-content;
                 }
             }
     
