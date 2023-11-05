@@ -219,7 +219,6 @@ body {
     height: fit-content;
   }
 }
-
 .main_303 {
   width: 100%;
   height: 768px;
@@ -1458,7 +1457,6 @@ body {
     height: fit-content;
   }
 }
-
 .bot {
   height: 656px;
   width: 100%;
@@ -1733,6 +1731,225 @@ footer .date {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  .bot {
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    background-color: #434CCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bot #location {
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    position: relative;
+  }
+  .bot .detail {
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+  .bot .largeimage {
+    width: 100%;
+    max-width: 80%;
+    height: 100%;
+    position: relative;
+    display: relative;
+    margin: 20px;
+  }
+  .bot .smallimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    height: 72px;
+  }
+  .bot #anc {
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    margin-top: 30px;
+  }
+  .bot #SC {
+    font-family: "DM Serif Display";
+    width: 100%;
+    line-height: 64px;
+    font-size: 32px;
+    color: white;
+    margin-top: 15px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .bot #mail {
+    width: 100%;
+    height: 76px;
+    margin-top: 24px;
+  }
+  .bot #email {
+    width: 75%;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-left: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .bot #msg {
+    width: 100%;
+    height: 124px;
+  }
+  .bot #message {
+    width: 80%;
+    height: 96px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .bot button {
+    margin-top: 48px;
+    width: 170px;
+    align-items: left;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  footer {
+    height: auto;
+    font-family: "DM-sans";
+  }
+  footer .container {
+    padding-top: 20px;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  footer .lastline {
+    height: auto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+  }
+  footer .lastline #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer .lastline #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  footer .logos {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  footer .logos .log {
+    height: 20px;
+    width: 40px;
+  }
+  footer .logos .des {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  footer .combi {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  footer .causae,
+  footer .aperiri {
+    width: 48%;
+  }
+  footer .causae {
+    margin-left: 10px;
+  }
+  footer .aperiri {
+    margin-left: 15px;
+  }
+  footer .post {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  footer .ti {
+    font-weight: 700;
+  }
+  footer .post {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer .picpost {
+    display: flex;
+    gap: 20px;
+  }
+  footer .des {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .desc {
+    height: auto;
+    width: 100%;
+  }
+  footer .date {
+    font-size: 12px;
+  }
+  footer .lastline {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  footer #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  .pet {
+    height: auto;
+    width: 100%;
+  }
+  .pet #petentium {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pet #cot {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+  }
+  .pet #zril {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .pet .petlogos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pet #cont {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .pet hr {
+    margin: 48px 0;
   }
 }
 
