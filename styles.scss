@@ -26,6 +26,7 @@ body {
     
             #mainLogo {
                 width: 75%;
+
                 height: 75%;
                 border-radius: 50%;
             }
@@ -65,7 +66,9 @@ body {
         }
 
         #hideLinksContainer{
+
             display: none;
+
         }
     }
 
@@ -164,6 +167,7 @@ body {
             }
             #menuIcon:hover ~ #hideLinksContainer{
                 display: block;
+
                 border-radius: 10px;
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
@@ -192,6 +196,7 @@ body {
                         cursor: pointer;
                     }
                 }   
+
             }
         }
     
@@ -478,14 +483,19 @@ body {
 }
 
 // saumya code
+// saumya code
 .aliquip {
     width: 100%;
-    height: 1328px;
+    // height: 1328px;
+    max-height: 1756px;
+    padding-top: 63px;
     background-color: #f5f6fc;
-    border: 1px solid white;
+    // border: 0.05px solid #f5f6fc;
+    // margin-bottom: -80px;
     direction: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 2px;
 
     // child 1
     .sam {
@@ -496,11 +506,12 @@ body {
             font-family: DM Sans;
             font-size: 16px;
             font-style: normal;
+
             font-weight: 400;
             line-height: 24px;
             /* 150% */
             letter-spacing: 4.8px;
-            margin-top: 63px;
+            // margin-top: 63px;
             // border: 1px solid black;
         }
 
@@ -543,6 +554,7 @@ body {
         margin-left: 135px;
         margin-right: 135px;
         // border: 1px solid brown;
+        
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
@@ -698,18 +710,145 @@ body {
             margin-top: 40px;
         }
     }
+    // adding media query
+    // @media screen and (min-width:100px) and (max-width:1300px) {
+    //          .samcontent{
+    //             grid-template-columns: repeat(1, 1fr);
+    //             grid-template-rows: repeat(4, 1fr);
+    //          }    
+    //          .aliquip{
+    //             width: 100%;
+    //             height: 1536px;
+    //          }
+    //         }
+    @media screen and (min-width:100px) and (max-width:767px) {
+        .sam {
+            .samhead1 {
+                font-size: 14px;
+                letter-spacing: 3px;
+                margin-top: 40px;
+            }
+            .samhead2 {
+                font-size: 36px;
+                margin-top: 15px;
+            }
+            .samText_Big {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+        .samcontent {
+            margin-top: 10px;
+            margin-bottom: 60px;
+            margin-left: 20px;
+            margin-right: 20px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+
+            #somu1 {
+                padding-left: 20px;
+                #samimg1 {
+                    height: auto;
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: -83px;
+                }
+            }
+            #somu2 {
+                // border: 1px solid black;
+                padding-right: 20px;
+                height: min-content;
+                .samhead {
+                    font-size: 28px;
+                    margin-top: 30px;
+                }
+                .samText_Grey {
+                    width: 100%;
+                    height: auto;
+                    top: 0;
+                    left: 0;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                .samText {
+                    height: auto;
+                    top: 0;
+                    left: 0;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+            #somu3 {
+                padding-left: 20px;
+                order: 1;
+                margin-top: -135px;
+                
+                .samhead {
+                    font-size: 28px;
+                    margin-top: 30px;
+                }
+                .samText_Grey {
+                    height: auto;
+                    top: 0;
+                    left: 0;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                .samText {
+                    height: auto;
+                    top: 0;
+                    left: 0;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+                        #somu4 {
+                            padding-right: 20px;
+                            margin-top: -182px;
+            
+                            #samimg2 {
+                                height: auto;
+                                width: 91%;
+                                // margin-top: 20px;
+                                display: block;
+                                /* Ensure the image behaves like a block-level element */
+                                margin: 0 auto;
+                                padding-top: 0px;
+                                // margin-top: 0px;
+                                margin-left: -14px;
+                                margin-top: 125px;
+                                // border:1px solid black;
+            
+                            }
+                        }
+        }
+        .aliquip {
+            // height: fit-content;
+            height: 1975px;
+            flex-shrink: 0; /* Adjust the height for mobile view */
+        }
+//         #samimg1
+//  {
+//     display: block; /* Ensure the image behaves like a block-level element */
+//     margin: 0 auto; /* Center the image horizontally */
+// }
+    }
 }
 //saumya code for container 6
 #scriptorem {
     width: 100%;
-    height: 270vh;
+    // border:1px solid black;
+
     background-color: #f5f6fc;
-    border: 1px solid white;
+    // border: 1px solid ;
     direction: flex;
     flex-direction: column;
+    padding-top: 63px;
+    ;
 
     // .revsmain,1st and 3rd child
-    .revsmain2,.revsmain {
+    .revsmain2,
+    .revsmain {
         .revshead {
             color: var(--Text_Black, #000);
             text-align: center;
@@ -737,7 +876,7 @@ body {
             font-weight: 400;
             line-height: 64px;
             /* 114.286% */
-            margin-top: 21px;
+            // margin-top: 21px;
         }
 
         .revsp {
@@ -753,156 +892,327 @@ body {
             font-weight: 400;
             line-height: 160%;
             margin-top: 20px;
-            
+
         }
     }
-    // 2nd child div
-    .revsflexbox{
-        display:flex;
-        gap:30px;
-        // width:100%;
-        // border:1px solid red;
-        height: 85vh;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 36px;
-        // margin-right:135px;
-        // margin-left:135px;
-        margin-left:135px;
-        margin-right:135px;
-        box-sizing: border-box;
-        >div{
-            // width: 370px;
-            height: 79vh;
-            border-radius: 5px;
-background: #FFF;
 
-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+    // 2nd child div
+    // .revsflexbox{
+    //     display:flex;
+    //     gap:30px;
+    //     // width:100%;
+    //     // border:1px solid red;
+    //     height: 85vh;
+    //     flex-wrap: wrap;
+    //     justify-content: space-between;
+    //     margin-top: 36px;
+    //     // margin-right:135px;
+    //     // margin-left:135px;
+    //     margin-left:135px;
+    //     margin-right:135px;
+    //     box-sizing: border-box;
+    .revsflexbox {
+        display: flex;
+        flex-direction: row;
+        /* Stack items vertically for smaller screens */
+        gap: 30px;
+        margin-left: 135px;
+        margin-right: 135px;
+        padding: 20px;
+        /* Add some padding to create spacing between items */
+        box-sizing: border-box;
+
+        >div {
+            // width: 370px;
+            width: 100%;
+            height: 492px;
+            border-radius: 5px;
+            background: #FFF;
+
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
 
             // border:1px solid black;
             // width: 370px;
             // padding:23px 23px 0px 23px;
             background-color: white;
+
             img {
-                    // padding:23px;
-                    width: 285px;
-                    height: 285px;
-                    // border: 1px solid black;
-                    padding: 23px;
-                    border-radius: 50%;
-                }
-                         h4 {
-                             color: var(--Text_Black, #000);
-                             padding-left: 23px;
-                             /* H4 */
-                             font-family: DM Serif Display;
-                             font-size: 24px;
-                             font-style: normal;
-                             font-weight: 400;
-                             line-height: 32px;
-                             /* 133.333% */
-                             margin-top: 0px;
-                          }
-                        hr {
-                            // width: 338px;
-                            // height: 1px;
-                            margin-left: 23px;
-                            color: #e5e5e5;
-                        }
-            >div{
-                display:flex;
+                // padding:23px;
+                width: 285px;
+                height: 285px;
+                // border: 1px solid black;
+                padding: 23px;
+                border-radius: 50%;
+            }
+
+            h4 {
+                color: var(--Text_Black, #000);
+                padding-left: 23px;
+                /* H4 */
+                font-family: DM Serif Display;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                /* 133.333% */
+                margin-top: 0px;
+            }
+
+            hr {
+                // width: 338px;
+                // height: 1px;
+                margin-left: 23px;
+                color: #e5e5e5;
+            }
+
+            >div {
+                display: flex;
                 justify-content: space-between;
-                margin-left:23px;
+                margin-left: 23px;
                 // margin-right: 23px;
                 // border:1px solid black;
                 margin-right: 15px;
-                margin-top:0;
+                margin-top: 0;
+
                 p {
-                 
-                        /* Text_Gray */
-                        font-family: DM Sans;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 24px;
-                        
-                    }
-                  img {
-                                                            
-                       width: 65px;
-                       height: 28px;
+
+                    /* Text_Gray */
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                }
+
+                img {
+
+                    width: 65px;
+                    height: 28px;
                     //    border:1px solid green; 
-                       margin-top:-8px;
-                    
-                       margin-top: -8px;
-                       padding-right: 0px;
-                       }
-                        
-                    
-               
+                    margin-top: -8px;
+
+                    margin-top: -8px;
+                    padding-right: 0px;
+
                 }
 
+
+
             }
-            
-           }
-           //4th child grid{
-            .revsgrid{
-                display:grid;
-                grid-template-columns: repeat(3,1fr);
-                grid-template-rows: repeat(3,1fr);
-                gap:24px 22px;
-                margin-left:135px;
-                margin-right:135px;
-                margin-top: 52px;;
-                >div{
-                    width: 340px;
-height: 144px;
-border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
-display:flex;
-img{
-    // margin:24px 25px 63px 32px;
-    margin: 32px 22px 63px 23px;
-    fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
-    width: 43px;
-height: 49px;
-}
-.revsheadgrid{
-    color: var(--Text_Black, #000);
 
-/* H4 */
-font-family: DM Serif Display;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 133.333% */
+        }
 
-margin-top: 22px;
-}
-.revspgrid{
-    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-
-/* Text_Gray */
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-margin-right: 28px;
-/* Text_Gray */
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-margin-top: -24px;
-}
-                }
-            }
-          
     }
+
+    //4th child grid{
+    // .revsgrid{
+    //     display:grid;
+    //     grid-template-columns: repeat(3,1fr);
+    //     grid-template-rows: repeat(3,1fr);
+    //     gap:24px 22px;
+    //     margin-left:135px;
+    //     margin-right:135px;
+    //     margin-top: 52px;
+    .revsgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 24px 22px;
+        margin-left: 135px;
+        margin-right: 135px;
+        margin-top: 52px;
+
+        >div {
+            width: 340px;
+            // width: 100%; 
+            height: 144px;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+            display: flex;
+
+            img {
+                // margin:24px 25px 63px 32px;
+                margin: 32px 22px 63px 23px;
+                fill: linear-gradient(225deg, #FFC105 0%, #737CFF 100%);
+                width: 43px;
+                height: 49px;
+            }
+
+            .revsheadgrid {
+                color: var(--Text_Black, #000);
+
+                /* H4 */
+                font-family: DM Serif Display;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                /* 133.333% */
+
+                margin-top: 22px;
+            }
+
+            .revspgrid {
+                color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+                /* Text_Gray */
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 150% */
+                color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+                margin-right: 28px;
+                /* Text_Gray */
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 150% */
+                margin-top: -24px;
+            }
+        }
+    }
+
+    //adding media query
+    @media screen and (max-width: 767px) {
+        .revsflexbox {
+            margin-left: 47px;
+            margin-right: 40px;
+            flex-direction: column;
+        }
+
+        .revsgrid {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        #scriptorem {
+            // height: 3402px;
+            height: 3350px;
+            min-width: 425px;
+        }
+
+        .revsflexbox {
+            margin-left: 47px;
+            margin-right: 40px;
+            flex-direction: column;
+
+            >div {
+                // width: 370px;
+                width: 100%;
+                height: 492px;
+                border-radius: 5px;
+
+            }
+
+
+            >div {
+
+                img {
+
+                    margin-top: 9px;
+                    width: 285px;
+                    height: 285px;
+                    padding: 23px;
+                    padding-left: 92px;
+                    padding-right: 93px;
+                    border-radius: 50%;
+
+                }
+
+
+
+            }
+
+            #scriptorem .revsgrid > div {
+                width: 340px;
+                height: 144px;
+                border-radius: 5px;
+                background: #FFF;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+                display: flex;
+                margin-left: -124px;
+        }
+        #scriptorem {
+            // height: 3402px;
+            // height: 3350px;
+            height: 3350px;
+            // min-width: 425px;
+        }
+    }
+}
+    @media screen and (min-width: 100px) and (max-width: 650px) {
+        // .revsflexbox {
+        //     margin-left: 47px;
+        //     margin-right: 40px;
+        //     flex-direction: column;
+        // }
+
+        .revsgrid {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        #scriptorem {
+            // height: 3402px;
+            height: 3350px;
+            min-width: 425px;
+            height: 3413px;
+        }
+
+        .revsflexbox {
+            margin-left: 47px;
+            margin-right: 40px;
+            flex-direction: column;
+
+            >div {
+                // width: 370px;
+                width: 100%;
+                height: 492px;
+                border-radius: 5px;
+
+            }
+
+
+            >div {
+
+                img {
+
+                    margin-top: 9px;
+                    width: 203px;
+                    height: 285px;
+                    padding: 24px 11px 21px 12px;
+                    border-radius: 50%;
+
+                }
+
+
+
+            }
+            #scriptorem {
+                .revsgrid {
+                    > div {
+                width: 340px;
+                height: 144px;
+                border-radius: 5px;
+                background: #FFF;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+                display: flex;
+                margin-left: -124px;
+            }
+        }
+    }
+
+        }
+}
+}
+    
+//end of saumya container 6
 
 //Surbhi-second-container
 

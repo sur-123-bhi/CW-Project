@@ -424,12 +424,13 @@ body {
 }
 .aliquip {
   width: 100%;
-  height: 1328px;
+  max-height: 1756px;
+  padding-top: 63px;
   background-color: #f5f6fc;
-  border: 1px solid white;
   direction: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 2px;
 }
 .aliquip .sam .samhead1 {
   color: var(--Text_Black, #000);
@@ -442,7 +443,6 @@ body {
   line-height: 24px;
   /* 150% */
   letter-spacing: 4.8px;
-  margin-top: 63px;
 }
 .aliquip .sam .samhead2 {
   color: var(--Text_Black, #000);
@@ -584,16 +584,112 @@ body {
   width: 485px;
   margin-top: 40px;
 }
+@media screen and (min-width: 100px) and (max-width: 767px) {
+  .aliquip .sam .samhead1 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 40px;
+  }
+  .aliquip .sam .samhead2 {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+  .aliquip .sam .samText_Big {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .aliquip .samcontent {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .aliquip .samcontent #somu1 {
+    padding-left: 20px;
+  }
+  .aliquip .samcontent #somu1 #samimg1 {
+    height: auto;
+    width: 100%;
+    margin-right: 0;
+    margin-left: -83px;
+  }
+  .aliquip .samcontent #somu2 {
+    padding-right: 20px;
+    height: min-content;
+  }
+  .aliquip .samcontent #somu2 .samhead {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .aliquip .samcontent #somu2 .samText_Grey {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .aliquip .samcontent #somu2 .samText {
+    height: auto;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .aliquip .samcontent #somu3 {
+    padding-left: 20px;
+    order: 1;
+    margin-top: -135px;
+  }
+  .aliquip .samcontent #somu3 .samhead {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .aliquip .samcontent #somu3 .samText_Grey {
+    height: auto;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .aliquip .samcontent #somu3 .samText {
+    height: auto;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .aliquip .samcontent #somu4 {
+    padding-right: 20px;
+    margin-top: -182px;
+  }
+  .aliquip .samcontent #somu4 #samimg2 {
+    height: auto;
+    width: 91%;
+    display: block;
+    /* Ensure the image behaves like a block-level element */
+    margin: 0 auto;
+    padding-top: 0px;
+    margin-left: -14px;
+    margin-top: 125px;
+  }
+  .aliquip .aliquip {
+    height: 1975px;
+    flex-shrink: 0; /* Adjust the height for mobile view */
+  }
+}
 
 #scriptorem {
   width: 100%;
-  height: 270vh;
   background-color: #f5f6fc;
-  border: 1px solid white;
   direction: flex;
   flex-direction: column;
+  padding-top: 63px;
 }
-#scriptorem .revsmain2 .revshead, #scriptorem .revsmain .revshead {
+#scriptorem .revsmain2 .revshead,
+#scriptorem .revsmain .revshead {
   color: var(--Text_Black, #000);
   text-align: center;
   /* H5 */
@@ -607,7 +703,8 @@ body {
   text-transform: uppercase;
   margin-top: 63px;
 }
-#scriptorem .revsmain2 .revshead2, #scriptorem .revsmain .revshead2 {
+#scriptorem .revsmain2 .revshead2,
+#scriptorem .revsmain .revshead2 {
   color: var(--Text_Black, #000);
   text-align: center;
   /* H2 */
@@ -617,9 +714,9 @@ body {
   font-weight: 400;
   line-height: 64px;
   /* 114.286% */
-  margin-top: 21px;
 }
-#scriptorem .revsmain2 .revsp, #scriptorem .revsmain .revsp {
+#scriptorem .revsmain2 .revsp,
+#scriptorem .revsmain .revsp {
   color: var(--Text_Black, #000);
   text-align: center;
   /* Text_Big */
@@ -632,17 +729,18 @@ body {
 }
 #scriptorem .revsflexbox {
   display: flex;
+  flex-direction: row;
+  /* Stack items vertically for smaller screens */
   gap: 30px;
-  height: 85vh;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 36px;
   margin-left: 135px;
   margin-right: 135px;
+  padding: 20px;
+  /* Add some padding to create spacing between items */
   box-sizing: border-box;
 }
 #scriptorem .revsflexbox > div {
-  height: 79vh;
+  width: 100%;
+  height: 492px;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
@@ -722,7 +820,8 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
+  /* 133.333% */
   margin-top: 22px;
 }
 #scriptorem .revsgrid > div .revspgrid {
@@ -732,7 +831,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   margin-right: 28px;
   /* Text_Gray */
@@ -740,8 +840,92 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   margin-top: -24px;
+}
+@media screen and (max-width: 767px) {
+  #scriptorem .revsflexbox {
+    margin-left: 47px;
+    margin-right: 40px;
+    flex-direction: column;
+  }
+  #scriptorem .revsgrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  #scriptorem #scriptorem {
+    height: 3350px;
+    min-width: 425px;
+  }
+  #scriptorem .revsflexbox {
+    margin-left: 47px;
+    margin-right: 40px;
+    flex-direction: column;
+  }
+  #scriptorem .revsflexbox > div {
+    width: 100%;
+    height: 492px;
+    border-radius: 5px;
+  }
+  #scriptorem .revsflexbox > div img {
+    margin-top: 9px;
+    width: 285px;
+    height: 285px;
+    padding: 23px;
+    padding-left: 92px;
+    padding-right: 93px;
+    border-radius: 50%;
+  }
+  #scriptorem .revsflexbox #scriptorem .revsgrid > div {
+    width: 340px;
+    height: 144px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-left: -124px;
+  }
+  #scriptorem .revsflexbox #scriptorem {
+    height: 3350px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #scriptorem .revsgrid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  #scriptorem #scriptorem {
+    height: 3350px;
+    min-width: 425px;
+    height: 3413px;
+  }
+  #scriptorem .revsflexbox {
+    margin-left: 47px;
+    margin-right: 40px;
+    flex-direction: column;
+  }
+  #scriptorem .revsflexbox > div {
+    width: 100%;
+    height: 492px;
+    border-radius: 5px;
+  }
+  #scriptorem .revsflexbox > div img {
+    margin-top: 9px;
+    width: 203px;
+    height: 285px;
+    padding: 24px 11px 21px 12px;
+    border-radius: 50%;
+  }
+  #scriptorem .revsflexbox #scriptorem .revsgrid > div {
+    width: 340px;
+    height: 144px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-left: -124px;
+  }
 }
 
 #molestiae-section {
