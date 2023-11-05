@@ -1,0 +1,559 @@
+//surbhi- nav- bar
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #434CCC;
+    font-family: DM Sans;
+    padding: 0% 7%;
+    box-sizing: border-box;
+
+    nav {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+
+        #logoContainer {
+            width: 10%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            #mainLogo {
+                width: 75%;
+                height: 80%;
+                border-radius: 50%;
+            }
+        }
+
+        #navLinksContainer {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 4%;
+
+            a {
+                font-size: 16px;
+                font-weight: 700;
+                text-decoration: none;
+                cursor: pointer;
+                color: white;
+                font-family: DM Sans;
+            }
+
+            button {
+                background-color: #434CCC;
+                padding: 13px 56px;
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+
+        #menuIcon {
+            width: 20%;
+            height: 20%;
+            display: none;
+
+        }
+
+        #hideLinksContainer {
+            background-color: #F1B505;
+            top: 15vh;
+            right: 0;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            display: none;
+
+            a {
+                font-size: 25px;
+            }
+        }
+    }
+
+    section {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 4%;
+        text-align: center;
+
+        h1 {
+            font-family: DM Serif Display;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 80px;
+            /* 111.111% */
+            margin: 0;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32px;
+            /* 160% */
+            letter-spacing: 1px;
+        }
+    }
+}
+
+
+
+
+
+@media screen and (min-width:100px) and (max-width:650px) {
+
+    nav {
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+
+        #logoContainer {
+            width: 50%;
+
+            #mainLogo {
+                width: 45%;
+                height: 70%;
+            }
+        }
+
+        #navLinksContainer {
+            display: none;
+        }
+
+        #menuIcon {
+            width: 20%;
+            height: 20%;
+            transition: transform .2s;
+            display: block;
+
+        }
+
+        #menuIcon:hover {
+            transform: scale(1.5);
+        }
+
+        #menuIcon:hover~#hideLinksContainer {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #hideLinksContainer {
+            width: 60%;
+            height: 40vh;
+            border-radius: 10px;
+
+            a {
+                font-size: 25px;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// Map part styling
+.map_303 {
+    width: 100%;
+    height: 1248px;
+    margin: auto;
+    background-color: #f5f6fc;
+
+    .mapimg_303 {
+        width: 1170px;
+        height: 640px;
+        margin: 60px auto 64px auto;
+
+        .locate_303 {
+            position: relative;
+            bottom: 400px;
+            left: 550px;
+        }
+    }
+
+    .form_303 {
+        display: flex;
+        gap: 65px;
+
+        .mes_side1_303 {
+            width: 834px;
+            height: 420px;
+            margin-left: 180px;
+            display: flex;
+            flex-direction: column;
+
+            .H2map_303 {
+                //styleName:H2map_303 ;
+                width: 206px;
+                height: 64px;
+                font-family: DM Serif Display;
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 64px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin: 0px 694px 8px 0px;
+            }
+
+            .detail1_303 {
+                width: 100%;
+                height: 76px;
+                display: flex;
+                gap: 33px;
+
+                .name_303 {
+                    width: 401px;
+                    height: 76px;
+                    padding-top: 20px;
+
+                    #name {
+                        width: 97%;
+                        height: 30px;
+                        border: 0.1px solid grey;
+                        border-radius: 4px;
+                    }
+                }
+
+                .email_303 {
+                    width: 401px;
+                    height: 76px;
+                    padding-top: 20px;
+
+                    #email {
+                        width: 97%;
+                        height: 30px;
+                        border: 0.1px solid grey;
+                        border-radius: 4px;
+                    }
+
+                }
+            }
+
+            .details2_303 {
+                width: 100%;
+                height: 172px;
+                padding-top: 20px;
+
+                #feedback {
+                    width: 99%;
+                    height: 165px;
+                    border: 0.1px solid grey;
+                    border-radius: 4px;
+                }
+            }
+
+            .details3_303 {
+                margin-top: 32px;
+
+                .btnblue_303 {
+                    background-color: #434ccc;
+                    width: 170px;
+                    height: 48px;
+                    border-radius: 4px;
+                    border: none;
+                    color: white;
+                }
+            }
+
+
+        }
+
+        .info_side2_303 {
+            width: 270px;
+            height: 420px;
+            display: flex;
+            flex-direction: column;
+
+            .H2info_303 {
+                //styleName: H2info_303;
+                width: 99px;
+                height: 64px;
+                font-family: DM Serif Display;
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 64px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin: 0px 171px 8px 0px;
+
+            }
+
+            .firstdiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 25px;
+
+                .contact-locator_303 {
+                    width: 48px;
+                    height: 48px;
+                    margin: auto;
+                }
+
+                .contactpara_303 {
+                    width: 200px;
+                    height: 48px;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #00000080;
+                }
+            }
+
+            .seconddiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 25px;
+
+                .contact-locator_303 {
+                    width: 48px;
+                    height: 48px;
+                    margin: auto;
+                }
+
+                .contact_303 {
+                    width: 200px;
+                    height: 32px;
+                    font-family: DM Sans;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #000000;
+                }
+            }
+
+            .thirddiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 40px;
+
+                .email-locator_303 {
+                    width: 48px;
+                    height: 37px;
+                    margin: auto;
+                }
+
+                .email_303 {
+                    width: 200px;
+                    height: 24px;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #000000;
+                }
+            }
+            .fourthdiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+
+                .btninside_303{
+                    width: 48px;
+                    height: 48px;
+                    border: none;
+                    background-color: #434ccc;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(245, 246, 252);
+    height: 400px;
+    width: 100%;
+    font-family: "DM-sans";
+
+
+
+    .soc {
+        display: flex;
+        gap: 13px;
+    }
+
+    .container {
+        padding-top: 79px;
+        display: flex;
+        height: 320px;
+        width: 100%;
+
+    }
+
+
+    .lastline {
+        background-color: rgb(245, 246, 252);
+        height: 80px;
+        width: 100%;
+        // border:1px solid brown;
+        display: flex;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+        #leftline {
+            margin-top: 27px;
+            margin-left: 135px;
+            margin-bottom: 29px;
+        }
+
+        #rightline {
+            margin-right: 135px;
+            margin-top: 27px;
+            margin-left: 787px;
+
+        }
+
+
+    }
+
+
+
+    .soc {
+        margin-top: 18px;
+    }
+
+    .footer-col {
+        flex-grow: 1;
+    }
+
+
+    .logos {
+        flex-basis: 33.32%;
+        margin-left: 135px;
+        margin-top: 20px;
+
+        .log {
+            height: 32px;
+            width: 62px;
+        }
+
+        .des {
+            height: 79px;
+            width: 270px;
+            color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+    }
+
+    .causae {
+        flex-basis: 16.66%;
+
+    }
+
+    .aperiri {
+        flex-basis: 16.66%;
+    }
+
+    .post {
+        flex-basis: 33.32%;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        ;
+    }
+
+    .ti {
+        font-weight: 700;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+
+    .picpost {
+        display: flex;
+        gap: 30px;
+    }
+
+    .des {
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+    }
+
+
+    .desc {
+        height: 48px;
+        width: 270px;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        font-family: "DM Sans";
+    }
+
+    .desc {
+        width: 270px;
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+        font-family: "DM Sans";
+    }
+
+    .date {
+        font-family: "DM Sans";
+        font-size: 12px;
+
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+
+.date {
+    font-family: "DM Sans";
+    font-size: 12px;
+
+    font-weight: 700;
+    line-height: 24px;
+}
