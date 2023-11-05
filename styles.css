@@ -14,7 +14,7 @@ body {
 }
 #topBannerAndNavBar nav {
   width: 100%;
-  height: 15vh;
+  height: 18vh;
   display: flex;
 }
 #topBannerAndNavBar nav #logoContainer {
@@ -25,7 +25,7 @@ body {
 }
 #topBannerAndNavBar nav #logoContainer #mainLogo {
   width: 75%;
-  height: 80%;
+  height: 75%;
   border-radius: 50%;
 }
 #topBannerAndNavBar nav #navLinksContainer {
@@ -58,18 +58,7 @@ body {
   display: none;
 }
 #topBannerAndNavBar nav #hideLinksContainer {
-  background-color: #F1B505;
-  top: 15vh;
-  right: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
   display: none;
-}
-#topBannerAndNavBar nav #hideLinksContainer a {
-  font-size: 25px;
 }
 #topBannerAndNavBar #surbhiTopBlueBanner {
   width: 100%;
@@ -154,20 +143,31 @@ body {
   }
   #topBannerAndNavBar nav #menuIcon:hover ~ #hideLinksContainer {
     display: block;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   #topBannerAndNavBar nav #hideLinksContainer {
-    width: 60%;
-    height: 40vh;
-    border-radius: 10px;
+    width: 50%;
+    height: 30vh;
+    right: 1vh;
+    top: 15vh;
+    position: absolute;
+    display: none;
+    background-color: white;
   }
-  #topBannerAndNavBar nav #hideLinksContainer a {
-    font-size: 25px;
+  #topBannerAndNavBar nav #hideLinksContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 200, 200);
+  }
+  #topBannerAndNavBar nav #hideLinksContainer div a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #0b18cc;
     font-weight: 600;
     cursor: pointer;
   }
