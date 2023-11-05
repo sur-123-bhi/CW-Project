@@ -1260,11 +1260,7 @@ footer .lastline #rightline {
 footer .soc {
   margin-top: 18px;
 }
-footer .footer-col {
-  flex-grow: 1;
-}
 footer .logos {
-  flex-basis: 33.32%;
   margin-left: 135px;
   margin-top: 20px;
 }
@@ -1281,14 +1277,17 @@ footer .logos .des {
   font-weight: 400;
   line-height: 24px;
 }
+footer .combi {
+  display: flex;
+}
 footer .causae {
-  flex-basis: 16.66%;
+  margin-left: 105px;
 }
 footer .aperiri {
-  flex-basis: 16.66%;
+  margin-left: 140px;
 }
 footer .post {
-  flex-basis: 33.32%;
+  margin-left: 120px;
 }
 footer a {
   text-decoration: none;
@@ -1301,6 +1300,7 @@ footer .post {
   display: flex;
   flex-direction: column;
   gap: 39px;
+  margin-top: 20px;
 }
 footer .picpost {
   display: flex;
@@ -1322,21 +1322,7 @@ footer .desc {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: "DM Sans";
 }
-footer .desc {
-  width: 270px;
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: "DM Sans";
-}
 footer .date {
-  font-family: "DM Sans";
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 24px;
-}
-
-.date {
   font-family: "DM Sans";
   font-size: 12px;
   font-weight: 700;

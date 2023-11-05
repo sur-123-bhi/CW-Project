@@ -1483,37 +1483,32 @@ hr{
 }
 
 
-
-
-
-//footer Styling
-footer {
-    background-color: rgb(245, 246, 252);
+//footerfinalchange
+footer{
+    background-color: rgb(245,246,252);
     height: 400px;
     width: 100%;
     font-family: "DM-sans";
 
 
 
-    .soc {
+    .soc{
         display: flex;
-        gap: 13px;
+        gap:13px;
     }
-
-    .container {
+    .container{
         padding-top: 79px;
         display: flex;
-        height: 320px;
-        width: 100%;
-
+        height:320px;
+        width:100%;
+        
     }
 
 
-    .lastline {
-        background-color: rgb(245, 246, 252);
-        height: 80px;
-        width: 100%;
-        // border:1px solid brown;
+     .lastline{
+        background-color: rgb(245,246,252);
+        height:80px;
+        width:100%;
         display: flex;
         font-family: "DM Sans";
         font-size: 16px;
@@ -1522,44 +1517,36 @@ footer {
         line-height: 24px;
         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
 
-        #leftline {
-            margin-top: 27px;
+        #leftline{
+            margin-top:27px;
             margin-left: 135px;
             margin-bottom: 29px;
         }
-
-        #rightline {
+        #rightline{
             margin-right: 135px;
-            margin-top: 27px;
-            margin-left: 787px;
-
+            margin-top:27px ;
+            margin-left:787px;
+            
         }
-
-
-    }
+     }
 
 
 
-    .soc {
+    .soc{
         margin-top: 18px;
     }
-
-    .footer-col {
-        flex-grow: 1;
-    }
+   
 
 
-    .logos {
-        flex-basis: 33.32%;
+    .logos{
         margin-left: 135px;
         margin-top: 20px;
-
-        .log {
+       
+        .log{
             height: 32px;
             width: 62px;
         }
-
-        .des {
+        .des{
             height: 79px;
             width: 270px;
             color: var(--text-black-50, rgba(0, 0, 0, 0.50));
@@ -1571,85 +1558,243 @@ footer {
 
     }
 
-    .causae {
-        flex-basis: 16.66%;
+   .combi{
+    display: flex;
+   }
 
+
+    .causae{
+        margin-left: 105px;
+    }
+     
+    .aperiri{
+        margin-left: 140px;
     }
 
-    .aperiri {
-        flex-basis: 16.66%;
-    }
-
-    .post {
-        flex-basis: 33.32%;
+    .post{
+        margin-left: 120px;
     }
 
 
-    a {
+    a{
         text-decoration: none;
-        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-        ;
+        color: var(--text-black-50, rgba(0, 0, 0, 0.50));;
     }
-
-    .ti {
+   
+    .ti{
         font-weight: 700;
     }
-
-    .post {
+    .post{
         display: flex;
         flex-direction: column;
-        gap: 39px;
+        gap:39px;
+        margin-top: 20px;
     }
 
-    .picpost {
-        display: flex;
-        gap: 30px;
-    }
-
-    .des {
-        font-family: "DM Sans";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-    }
-
-
-    .desc {
-        height: 48px;
-        width: 270px;
-        font-size: 16px;
-        font-weight: 400;
-        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-        font-family: "DM Sans";
-    }
-
-    .desc {
-        width: 270px;
-        font-size: 16px;
-        font-weight: 400;
-        color: var(--text-black-50, rgba(0, 0, 0, 0.50));
-        font-family: "DM Sans";
-    }
-
-    .date {
-        font-family: "DM Sans";
-        font-size: 12px;
-
-        font-weight: 700;
-        line-height: 24px;
-    }
+.picpost{
+    display:flex;
+    gap:30px;
 }
 
+.des{
+    font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+}
 
-.date {
+.desc{
+    height: 48px;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+    font-family: "DM Sans";
+}
+.date{
     font-family: "DM Sans";
     font-size: 12px;
-
+    
     font-weight: 700;
     line-height: 24px;
 }
+
+}
+
+
+
+
+
+
+
+
+
+//footer Styling
+// footer {
+//     background-color: rgb(245, 246, 252);
+//     height: 400px;
+//     width: 100%;
+//     font-family: "DM-sans";
+
+
+
+//     .soc {
+//         display: flex;
+//         gap: 13px;
+//     }
+
+//     .container {
+//         padding-top: 79px;
+//         display: flex;
+//         height: 320px;
+//         width: 100%;
+
+//     }
+
+
+//     .lastline {
+//         background-color: rgb(245, 246, 252);
+//         height: 80px;
+//         width: 100%;
+//         // border:1px solid brown;
+//         display: flex;
+//         font-family: "DM Sans";
+//         font-size: 16px;
+//         font-style: normal;
+//         font-weight: 400;
+//         line-height: 24px;
+//         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+//         #leftline {
+//             margin-top: 27px;
+//             margin-left: 135px;
+//             margin-bottom: 29px;
+//         }
+
+//         #rightline {
+//             margin-right: 135px;
+//             margin-top: 27px;
+//             margin-left: 787px;
+
+//         }
+
+
+//     }
+
+
+
+//     .soc {
+//         margin-top: 18px;
+//     }
+
+//     .footer-col {
+//         flex-grow: 1;
+//     }
+
+
+//     .logos {
+//         flex-basis: 33.32%;
+//         margin-left: 135px;
+//         margin-top: 20px;
+
+//         .log {
+//             height: 32px;
+//             width: 62px;
+//         }
+
+//         .des {
+//             height: 79px;
+//             width: 270px;
+//             color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+//             font-size: 16px;
+//             font-style: normal;
+//             font-weight: 400;
+//             line-height: 24px;
+//         }
+
+//     }
+
+//     .causae {
+//         flex-basis: 16.66%;
+
+//     }
+
+//     .aperiri {
+//         flex-basis: 16.66%;
+//     }
+
+//     .post {
+//         flex-basis: 33.32%;
+//     }
+
+
+//     a {
+//         text-decoration: none;
+//         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+//         ;
+//     }
+
+//     .ti {
+//         font-weight: 700;
+//     }
+
+//     .post {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 39px;
+//     }
+
+//     .picpost {
+//         display: flex;
+//         gap: 30px;
+//     }
+
+//     .des {
+//         font-family: "DM Sans";
+//         font-size: 16px;
+//         font-style: normal;
+//         font-weight: 400;
+//         line-height: 24px;
+//         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+//     }
+
+
+//     .desc {
+//         height: 48px;
+//         width: 270px;
+//         font-size: 16px;
+//         font-weight: 400;
+//         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+//         font-family: "DM Sans";
+//     }
+
+//     .desc {
+//         width: 270px;
+//         font-size: 16px;
+//         font-weight: 400;
+//         color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+//         font-family: "DM Sans";
+//     }
+
+//     .date {
+//         font-family: "DM Sans";
+//         font-size: 12px;
+
+//         font-weight: 700;
+//         line-height: 24px;
+//     }
+// }
+
+
+// .date {
+//     font-family: "DM Sans";
+//     font-size: 12px;
+
+//     font-weight: 700;
+//     line-height: 24px;
+// }
 
 
 //scripserit blue+img container 5 Styling
