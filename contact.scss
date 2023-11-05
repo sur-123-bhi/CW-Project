@@ -673,4 +673,219 @@ color: var(--text-black-50, rgba(0, 0, 0, 0.50));
 }
 
 
+// Map part styling
+.map_303 {
+    width: 100%;
+    height: 1248px;
+    background-color: #f5f6fc;
+    .mapimg_303 {
+        width: 1170px;
+        height: 640px;
+        padding-top: 60px;
+        margin: 0 auto 64px auto;
 
+        .locate_303 {
+            position: relative;
+            bottom: 400px;
+            left: 550px;
+        }
+    }
+
+    .form_303 {
+        display: flex;
+        gap: 65px;
+
+        .mes_side1_303 {
+            width: 834px;
+            height: 420px;
+            margin-left: 180px;
+            display: flex;
+            flex-direction: column;
+
+            .H2map_303 {
+                //styleName:H2map_303 ;
+                width: 206px;
+                height: 64px;
+                font-family: DM Serif Display;
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 64px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin: 0px 694px 8px 0px;
+            }
+
+            .detail1_303 {
+                width: 100%;
+                height: 76px;
+                display: flex;
+                gap: 33px;
+
+                .name_303 {
+                    width: 401px;
+                    height: 76px;
+                    padding-top: 20px;
+
+                    #name {
+                        width: 97%;
+                        height: 30px;
+                        border: 0.1px solid grey;
+                        border-radius: 4px;
+                    }
+                }
+
+                .email_303 {
+                    width: 401px;
+                    height: 76px;
+                    padding-top: 20px;
+
+                    #email {
+                        width: 97%;
+                        height: 30px;
+                        border: 0.1px solid grey;
+                        border-radius: 4px;
+                    }
+
+                }
+            }
+
+            .details2_303 {
+                width: 100%;
+                height: 172px;
+                padding-top: 20px;
+
+                #feedback {
+                    width: 99%;
+                    height: 165px;
+                    border: 0.1px solid grey;
+                    border-radius: 4px;
+                }
+            }
+
+            .details3_303 {
+                margin-top: 32px;
+
+                .btnblue_303 {
+                    background-color: #434ccc;
+                    width: 170px;
+                    height: 48px;
+                    border-radius: 4px;
+                    border: none;
+                    color: white;
+                }
+            }
+
+
+        }
+
+        .info_side2_303 {
+            width: 270px;
+            height: 420px;
+            display: flex;
+            flex-direction: column;
+
+            .H2info_303 {
+                //styleName: H2info_303;
+                width: 99px;
+                height: 64px;
+                font-family: DM Serif Display;
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 64px;
+                letter-spacing: 0px;
+                text-align: left;
+                margin: 0px 171px 8px 0px;
+
+            }
+
+            .firstdiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 25px;
+
+                .contact-locator_303 {
+                    width: 48px;
+                    height: 48px;
+                    margin: auto;
+                }
+
+                .contactpara_303 {
+                    width: 200px;
+                    height: 48px;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #00000080;
+                }
+            }
+
+            .seconddiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 25px;
+
+                .contact-locator_303 {
+                    width: 48px;
+                    height: 48px;
+                    margin: auto;
+                }
+
+                .contact_303 {
+                    width: 200px;
+                    height: 32px;
+                    font-family: DM Sans;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #000000;
+                }
+            }
+
+            .thirddiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+                margin-bottom: 40px;
+
+                .email-locator_303 {
+                    width: 48px;
+                    height: 37px;
+                    margin: auto;
+                }
+
+                .email_303 {
+                    width: 200px;
+                    height: 24px;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #000000;
+                }
+            }
+            .fourthdiv_303 {
+                width: 100%;
+                display: flex;
+                gap: 22px;
+
+                .btninside_303{
+                    width: 48px;
+                    height: 48px;
+                    border: none;
+                    background-color: #434ccc;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+    }
+}

@@ -560,5 +560,188 @@ footer .date {
     margin-left: 25px;
   }
 }
+.map_303 {
+  width: 100%;
+  height: 1248px;
+  background-color: #f5f6fc;
+}
+.map_303 .mapimg_303 {
+  width: 1170px;
+  height: 640px;
+  padding-top: 60px;
+  margin: 0 auto 64px auto;
+}
+.map_303 .mapimg_303 .locate_303 {
+  position: relative;
+  bottom: 400px;
+  left: 550px;
+}
+.map_303 .form_303 {
+  display: flex;
+  gap: 65px;
+}
+.map_303 .form_303 .mes_side1_303 {
+  width: 834px;
+  height: 420px;
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.map_303 .form_303 .mes_side1_303 .H2map_303 {
+  width: 206px;
+  height: 64px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 694px 8px 0px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  gap: 33px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .name_303 {
+  width: 401px;
+  height: 76px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .name_303 #name {
+  width: 97%;
+  height: 30px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .email_303 {
+  width: 401px;
+  height: 76px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .email_303 #email {
+  width: 97%;
+  height: 30px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .details2_303 {
+  width: 100%;
+  height: 172px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .details2_303 #feedback {
+  width: 99%;
+  height: 165px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .details3_303 {
+  margin-top: 32px;
+}
+.map_303 .form_303 .mes_side1_303 .details3_303 .btnblue_303 {
+  background-color: #434ccc;
+  width: 170px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.map_303 .form_303 .info_side2_303 {
+  width: 270px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+.map_303 .form_303 .info_side2_303 .H2info_303 {
+  width: 99px;
+  height: 64px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 171px 8px 0px;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 .contact-locator_303 {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 .contactpara_303 {
+  width: 200px;
+  height: 48px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 .contact-locator_303 {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 .contact_303 {
+  width: 200px;
+  height: 32px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 40px;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 .email-locator_303 {
+  width: 48px;
+  height: 37px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 .email_303 {
+  width: 200px;
+  height: 24px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+.map_303 .form_303 .info_side2_303 .fourthdiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+}
+.map_303 .form_303 .info_side2_303 .fourthdiv_303 .btninside_303 {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: #434ccc;
+  border-radius: 4px;
+}
 
 /*# sourceMappingURL=contact.css.map */
