@@ -174,13 +174,12 @@ header {
 .map_303 {
     width: 100%;
     height: 1248px;
-    margin: auto;
     background-color: #f5f6fc;
-
     .mapimg_303 {
         width: 1170px;
         height: 640px;
-        margin: 60px auto 64px auto;
+        padding-top: 60px;
+        margin: 0 auto 64px auto;
 
         .locate_303 {
             position: relative;
