@@ -1265,7 +1265,7 @@ margin-top: -24px;
             #overlapingImgContainer {
                 height: fit-content;
                 width: 90%;
-                top: 50vh;
+                top: 55vh;
         
                 #gridContainers {
                     height: 220vh;
@@ -1655,7 +1655,111 @@ margin-top: -24px;
             }
         }
     }
+}
 
+@media screen and (min-width:100px) and (max-width:650px) {
+
+    #novumContainer {
+        height: fit-content;
+        padding: 0% 5%;
+    
+        #firstInnerCont {
+            height: fit-content;
+    
+            #firstContsOuterAlignCont {
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                gap: 2vh;
+                
+    
+                #headingAndParaCont{
+                    height: fit-content;
+                    padding-top: 8%;
+                    padding-bottom: 6%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h2 {
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                }
+    
+                #buttonCont {
+                    height: fit-content;
+                    justify-content: center;
+                    align-items: center;
+    
+                    button {
+                       margin-top: 10%;
+                       margin-bottom: 10%;
+                    }
+                }
+                #Partition2{
+                    display: flex;
+                    flex-direction: column-reverse;     
+                }
+                .cards {
+                    width: 100%;
+                    height: fit-content;
+                    
+                    .cardImgCont {
+                        height: fit-content;
+    
+                        img {
+                            height: fit-content;
+                        }
+                    }
+    
+                    .cardContentCont {
+                        height: fit-content;
+                        width: 90%;
+    
+                        .horizontal-partition-container {
+                            height: 7vh;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    
+        #secInnerCont {
+            width: 100%;
+            height: fit-content;
+    
+            #secContOuterAlignCont {
+                width: 100%;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                padding-top: 5%;
+                padding-bottom: 10%;
+    
+                #contentCont {
+                    height: fit-content;
+                    width: 100%;
+                    padding-right: 30%;
+                    box-sizing: border-box;
+                    padding-top: 5%;
+                    padding-bottom: 10%;
+                }
+    
+                .img-cont{
+                    width: 100%;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+
+                    img{
+                        width: 100%;
+                        height: fit-content;
+                    }
+                }
+            }
+        }
+    }    
 }
 
 

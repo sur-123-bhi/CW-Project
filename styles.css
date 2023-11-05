@@ -1050,7 +1050,7 @@ body {
   #molestiae-section #whiteContainer #overlapingImgContainer {
     height: fit-content;
     width: 90%;
-    top: 50vh;
+    top: 55vh;
   }
   #molestiae-section #whiteContainer #overlapingImgContainer #gridContainers {
     height: 220vh;
@@ -1384,6 +1384,93 @@ body {
   height: fit-content;
 }
 
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #novumContainer {
+    height: fit-content;
+    padding: 0% 5%;
+  }
+  #novumContainer #firstInnerCont {
+    height: fit-content;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont {
+    height: fit-content;
+    padding-top: 8%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont #Partition2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards {
+    width: 100%;
+    height: fit-content;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardImgCont {
+    height: fit-content;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardImgCont img {
+    height: fit-content;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardContentCont {
+    height: fit-content;
+    width: 90%;
+  }
+  #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards .cardContentCont .horizontal-partition-container {
+    height: 7vh;
+    align-items: center;
+  }
+  #novumContainer #secInnerCont {
+    width: 100%;
+    height: fit-content;
+  }
+  #novumContainer #secInnerCont #secContOuterAlignCont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  #novumContainer #secInnerCont #secContOuterAlignCont #contentCont {
+    height: fit-content;
+    width: 100%;
+    padding-right: 30%;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  #novumContainer #secInnerCont #secContOuterAlignCont .img-cont {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  #novumContainer #secInnerCont #secContOuterAlignCont .img-cont img {
+    width: 100%;
+    height: fit-content;
+  }
+}
 footer {
   background-color: rgb(245, 246, 252);
   height: 400px;
