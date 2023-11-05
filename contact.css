@@ -8,10 +8,11 @@ header {
   font-family: DM Sans;
   padding: 0% 7%;
   box-sizing: border-box;
+  height: fit-content;
 }
 header nav {
   width: 100%;
-  height: 15vh;
+  height: 18vh;
   display: flex;
 }
 header nav #logoContainer {
@@ -22,7 +23,7 @@ header nav #logoContainer {
 }
 header nav #logoContainer #mainLogo {
   width: 75%;
-  height: 80%;
+  height: 75%;
   border-radius: 50%;
 }
 header nav #navLinksContainer {
@@ -55,18 +56,7 @@ header nav #menuIcon {
   display: none;
 }
 header nav #hideLinksContainer {
-  background-color: #F1B505;
-  top: 15vh;
-  right: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
   display: none;
-}
-header nav #hideLinksContainer a {
-  font-size: 25px;
 }
 header section {
   width: 100%;
@@ -95,48 +85,169 @@ header section p {
 }
 
 @media screen and (min-width: 100px) and (max-width: 650px) {
-  nav {
+  header {
+    padding: 0%;
+  }
+  header nav {
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
   }
-  nav #logoContainer {
+  header nav #logoContainer {
     width: 50%;
+    padding-left: 7%;
   }
-  nav #logoContainer #mainLogo {
-    width: 45%;
-    height: 70%;
+  header nav #logoContainer #mainLogo {
+    width: 47%;
+    height: 66%;
   }
-  nav #navLinksContainer {
+  header nav #navLinksContainer {
     display: none;
   }
-  nav #menuIcon {
+  header nav #menuIcon {
     width: 20%;
     height: 20%;
     transition: transform 0.2s;
     display: block;
+    padding-right: 3%;
   }
-  nav #menuIcon:hover {
+  header nav #menuIcon:hover {
     transform: scale(1.5);
   }
-  nav #menuIcon:hover ~ #hideLinksContainer {
+  header nav #menuIcon:hover ~ #hideLinksContainer {
     display: block;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
   }
-  nav #hideLinksContainer {
-    width: 60%;
-    height: 40vh;
+  header nav #menuIcon:hover ~ #hideLinksContainer {
+    display: block;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-  nav #hideLinksContainer a {
-    font-size: 25px;
+  header nav #hideLinksContainer {
+    width: 50%;
+    height: 30vh;
+    right: 1vh;
+    top: 15vh;
+    position: absolute;
+    display: none;
+    background-color: white;
+  }
+  header nav #hideLinksContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 200, 200);
+  }
+  header nav #hideLinksContainer div a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #0b18cc;
     font-weight: 600;
     cursor: pointer;
+  }
+  section {
+    padding: 10% 1% 5% 1%;
+  }
+  section h1 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  section p {
+    font-size: 14px;
+    letter-spacing: 0px;
+  }
+}
+#yellow-3-Cont {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  font-family: DM Sans;
+  background: #FFDD78;
+  padding: 0% 7%;
+  box-sizing: border-box;
+}
+#yellow-3-Cont #headingCont {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+#yellow-3-Cont #headingCont p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+}
+#yellow-3-Cont #headingCont h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+  margin-top: 2%;
+}
+#yellow-3-Cont #inputCont {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 5%;
+}
+#yellow-3-Cont #inputCont input {
+  padding: 3% 30% 3% 5%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+#yellow-3-Cont #inputCont button {
+  padding: 3% 8%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: var(--Primary_1, #434CCC);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #yellow-3-Cont {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+  }
+  #yellow-3-Cont #headingCont {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10%;
+  }
+  #yellow-3-Cont #headingCont h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  #yellow-3-Cont #inputCont {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10% 0% 15% 0%;
+  }
+  #yellow-3-Cont #inputCont input {
+    margin-bottom: 7%;
   }
 }
 footer {
