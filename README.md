@@ -5,10 +5,10 @@ deployed link:-https://bouncy-invention-713.netlify.app/
 Teck stack:
 - for structuring the webpage
 HTML
-CSS
 - for styling the webpage
-SASS
+CSS
 - for structuring the css file
+SASS
 
 images of the webpages
 Top section of the landing page-
