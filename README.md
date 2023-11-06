@@ -1,5 +1,5 @@
 # bouncy-invention-713
-We have build this project to make the practical implementation of all the skills that we have learned till now in our journey
+description - We have build this project to make the practical implementation of all the skills that we have learned till now in our journey
 
 This is the deployed link through which you can visit to our website:-
 https://bouncy-invention-713.netlify.app/
