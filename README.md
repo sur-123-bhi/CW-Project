@@ -1,6 +1,6 @@
 # bouncy-invention-713
-deployed link:-https://bouncy-invention-713.netlify.app/
-
+This is the deployed link through which you can visit to our website:-
+https://bouncy-invention-713.netlify.app/
 
 Teck stack:
 - for structuring the webpage
