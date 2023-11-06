@@ -11,10 +11,12 @@ CSS
 SASS
 
 images of the webpages
-
+Top section of the landing page-
+![4th](https://github.com/sur-123-bhi/bouncy-invention-713/assets/58022610/11d77faf-fe60-40a4-9449-1dcc096115a2)
+One of the section i.e present in our landing page
 ![2ND IMG](https://github.com/sur-123-bhi/bouncy-invention-713/assets/58022610/34c1fb16-625b-4980-a7f3-e40bea571d00)
 ![3RD IMG](https://github.com/sur-123-bhi/bouncy-invention-713/assets/58022610/8e04c543-ef6b-4031-bea2-77ef5c3cbf5f)
 
 ![5th](https://github.com/sur-123-bhi/bouncy-invention-713/assets/58022610/fa0f0906-94db-4618-9216-ea5ca3df6269)
-![4th](https://github.com/sur-123-bhi/bouncy-invention-713/assets/58022610/11d77faf-fe60-40a4-9449-1dcc096115a2)
+
 
