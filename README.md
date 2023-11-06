@@ -3,6 +3,10 @@ This is the deployed link through which you can visit to our website:-
 https://bouncy-invention-713.netlify.app/
 
 Teck stack:
+HTML
+CSS
+SASS
+
 - for structuring the webpage
 HTML
 - for styling the webpage
