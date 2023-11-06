@@ -74,13 +74,15 @@ header section h1 {
   font-family: DM Serif Display;
   font-size: 72px;
   font-weight: 700;
-  line-height: 80px; /* 111.111% */
+  line-height: 80px;
+  /* 111.111% */
   margin: 0;
 }
 header section p {
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  /* 160% */
   letter-spacing: 1px;
 }
 
@@ -186,7 +188,8 @@ header section p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   letter-spacing: 4.8px;
 }
 #yellow-3-Cont #headingCont h2 {
@@ -194,7 +197,8 @@ header section p {
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
-  line-height: 64px; /* 114.286% */
+  line-height: 64px;
+  /* 114.286% */
   margin-top: 2%;
 }
 #yellow-3-Cont #inputCont {
@@ -223,6 +227,106 @@ header section p {
   color: white;
 }
 
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  footer {
+    height: auto;
+    font-family: "DM-sans";
+  }
+  footer .container {
+    padding-top: 20px;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  footer .lastline {
+    height: auto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+  }
+  footer .lastline #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer .lastline #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  footer .logos {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  footer .logos .log {
+    height: 20px;
+    width: 40px;
+  }
+  footer .logos .des {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  footer .combi {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  footer .causae,
+  footer .aperiri {
+    width: 48%;
+  }
+  footer .causae {
+    margin-left: 10px;
+  }
+  footer .aperiri {
+    margin-left: 15px;
+  }
+  footer .post {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  footer .ti {
+    font-weight: 700;
+  }
+  footer .post {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer .picpost {
+    display: flex;
+    gap: 20px;
+  }
+  footer .des {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .desc {
+    height: auto;
+    width: 100%;
+  }
+  footer .date {
+    font-size: 12px;
+  }
+  footer .lastline {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  footer #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 25px;
+  }
+}
 @media screen and (min-width: 100px) and (max-width: 650px) {
   #yellow-3-Cont {
     height: fit-content;
@@ -291,11 +395,7 @@ footer .lastline #rightline {
 footer .soc {
   margin-top: 18px;
 }
-footer .footer-col {
-  flex-grow: 1;
-}
 footer .logos {
-  flex-basis: 33.32%;
   margin-left: 135px;
   margin-top: 20px;
 }
@@ -312,14 +412,17 @@ footer .logos .des {
   font-weight: 400;
   line-height: 24px;
 }
+footer .combi {
+  display: flex;
+}
 footer .causae {
-  flex-basis: 16.66%;
+  margin-left: 105px;
 }
 footer .aperiri {
-  flex-basis: 16.66%;
+  margin-left: 140px;
 }
 footer .post {
-  flex-basis: 33.32%;
+  margin-left: 120px;
 }
 footer a {
   text-decoration: none;
@@ -332,6 +435,7 @@ footer .post {
   display: flex;
   flex-direction: column;
   gap: 39px;
+  margin-top: 20px;
 }
 footer .picpost {
   display: flex;
@@ -353,13 +457,6 @@ footer .desc {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
   font-family: "DM Sans";
 }
-footer .desc {
-  width: 270px;
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: "DM Sans";
-}
 footer .date {
   font-family: "DM Sans";
   font-size: 12px;
@@ -367,11 +464,372 @@ footer .date {
   line-height: 24px;
 }
 
-.date {
-  font-family: "DM Sans";
-  font-size: 12px;
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  footer {
+    height: auto;
+    font-family: "DM-sans";
+  }
+  footer .container {
+    padding-top: 20px;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  footer .lastline {
+    height: auto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+  }
+  footer .lastline #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer .lastline #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  footer .logos {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  footer .logos .log {
+    height: 20px;
+    width: 40px;
+  }
+  footer .logos .des {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  footer .combi {
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  footer .causae,
+  footer .aperiri {
+    width: 48%;
+  }
+  footer .causae {
+    margin-left: 10px;
+  }
+  footer .aperiri {
+    margin-left: 15px;
+  }
+  footer .post {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  footer .ti {
+    font-weight: 700;
+  }
+  footer .post {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer .picpost {
+    display: flex;
+    gap: 20px;
+  }
+  footer .des {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .desc {
+    height: auto;
+    width: 100%;
+  }
+  footer .date {
+    font-size: 12px;
+  }
+  footer .lastline {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  footer #leftline {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  footer #rightline {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 25px;
+  }
+}
+.map_303 {
+  width: 100%;
+  height: 1248px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6fc;
+}
+.map_303 .mapimg_303 {
+  width: 1170px;
+  height: 640px;
+  padding-top: 60px;
+  margin: 0 auto 64px auto;
+}
+.map_303 .mapimg_303 .locate_303 {
+  position: relative;
+  bottom: 400px;
+  left: 550px;
+}
+.map_303 .form_303 {
+  width: 100%;
+  display: flex;
+  gap: 65px;
+  height: auto;
+}
+.map_303 .form_303 .mes_side1_303 {
+  width: 834px;
+  height: 420px;
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.map_303 .form_303 .mes_side1_303 .H2map_303 {
+  width: 206px;
+  height: 64px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 694px 8px 0px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  gap: 33px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .name_303 {
+  width: 401px;
+  height: 76px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .name_303 #name {
+  width: 97%;
+  height: 30px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .email_303 {
+  width: 401px;
+  height: 76px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .detail1_303 .email_303 #email {
+  width: 97%;
+  height: 30px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .details2_303 {
+  width: 100%;
+  height: 172px;
+  padding-top: 20px;
+}
+.map_303 .form_303 .mes_side1_303 .details2_303 #feedback {
+  width: 99%;
+  height: 165px;
+  border: 0.1px solid grey;
+  border-radius: 4px;
+}
+.map_303 .form_303 .mes_side1_303 .details3_303 {
+  margin-top: 32px;
+}
+.map_303 .form_303 .mes_side1_303 .details3_303 .btnblue_303 {
+  background-color: #434ccc;
+  width: 170px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.map_303 .form_303 .info_side2_303 {
+  width: 270px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+.map_303 .form_303 .info_side2_303 .H2info_303 {
+  width: 99px;
+  height: 64px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 171px 8px 0px;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 .contact-locator_303 {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .firstdiv_303 .contactpara_303 {
+  width: 200px;
+  height: 48px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 .contact-locator_303 {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .seconddiv_303 .contact_303 {
+  width: 200px;
+  height: 32px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 40px;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 .email-locator_303 {
+  width: 48px;
+  height: 37px;
+  margin: auto;
+}
+.map_303 .form_303 .info_side2_303 .thirddiv_303 .email_303 {
+  width: 200px;
+  height: 24px;
+  font-family: DM Sans;
+  font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+.map_303 .form_303 .info_side2_303 .fourthdiv_303 {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+}
+.map_303 .form_303 .info_side2_303 .fourthdiv_303 .btninside_303 {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: #434ccc;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  .map_303 {
+    width: 100%;
+    height: auto;
+  }
+  .map_303 .mapimg_303 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+  }
+  .map_303 .mapimg_303 .map_image {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .map_303 .mapimg_303 .locate_303 {
+    width: 50px;
+    height: 50px;
+    bottom: 180px;
+    left: 150px;
+  }
+  .map_303 .form_303 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .map_303 .form_303 .mes_side1_303 {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .map_303 .form_303 .mes_side1_303 .H2map_303 {
+    width: 147px;
+    height: 48px;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .map_303 .form_303 .mes_side1_303 .detail1_303 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 2px;
+  }
+  .map_303 .form_303 .mes_side1_303 .detail1_303 .name_303 {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .map_303 .form_303 .mes_side1_303 .detail1_303 .email_303 {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .map_303 .form_303 .info_side2_303 .H2info_303 {
+    width: 71px;
+    height: 48px;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .map_303 .form_303 .info_side2_303 .contactpara_303 {
+    width: 277px;
+    height: 48px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5019607843);
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */
