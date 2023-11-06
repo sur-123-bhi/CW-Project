@@ -3,8 +3,8 @@ deployed link:-https://bouncy-invention-713.netlify.app/
 
 
 Teck stack:
-HTML
 - for structuring the webpage
+HTML
 CSS
 - for styling the webpage
 SASS
