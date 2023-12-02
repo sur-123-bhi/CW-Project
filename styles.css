@@ -1411,7 +1411,6 @@ body {
 
 #novumContainer {
   width: 100%;
-  height: 185vh;
   padding: 0% 7%;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
@@ -1419,11 +1418,11 @@ body {
 }
 #novumContainer #firstInnerCont {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
 }
 #novumContainer #firstInnerCont #firstContsOuterAlignCont {
   width: 100%;
-  height: 75%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 3%;
@@ -1431,7 +1430,7 @@ body {
 #novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont,
 #novumContainer #firstInnerCont #firstContsOuterAlignCont #buttonCont {
   width: 100%;
-  height: 30%;
+  height: 25%;
   box-sizing: border-box;
 }
 #novumContainer #firstInnerCont #firstContsOuterAlignCont #headingAndParaCont {
@@ -1466,7 +1465,7 @@ body {
 }
 #novumContainer #firstInnerCont #firstContsOuterAlignCont .cards {
   width: 100%;
-  height: 70%;
+  height: 75%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   border: 1px solid white;
 }
@@ -1514,27 +1513,35 @@ body {
 }
 #novumContainer #secInnerCont {
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #novumContainer #secInnerCont #secContOuterAlignCont {
   width: 100%;
-  height: 52%;
+  height: 55%;
   display: grid;
+  box-sizing: border-box;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2%;
+}
+#novumContainer #secInnerCont #secContOuterAlignCont #contentCont {
+  box-sizing: border-box;
+  padding-right: 10%;
 }
 #novumContainer #secInnerCont #secContOuterAlignCont #contentCont h5 {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 4.8px;
+  line-height: 20px;
 }
 #novumContainer #secInnerCont #secContOuterAlignCont #contentCont h4 {
   font-family: DM Serif Display;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 50px;
 }
 #novumContainer #secInnerCont #secContOuterAlignCont #contentCont #cameraIcon {
   padding: 3% 2% 1% 2%;
@@ -1548,10 +1555,11 @@ body {
 }
 #novumContainer #secInnerCont #secContOuterAlignCont div {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  box-sizing: border-box;
 }
-#novumContainer #secInnerCont #secContOuterAlignCont div .img-imgContent {
-  width: fit-content;
-  height: fit-content;
+#novumContainer #secInnerCont #secContOuterAlignCont div .imgContent {
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 100px) and (max-width: 650px) {
