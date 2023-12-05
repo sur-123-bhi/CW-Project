@@ -43,10 +43,10 @@ We added responsiveness also with both the pages-
 
 ![Screenshot (219)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/7e690e9b-21f2-4494-8ef4-a188de967eda)
 ![Screenshot (220)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/b95357b6-425e-40ce-981d-ee8e5999e2e3)
-![Screenshot (221)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/994141ef-534c-453b-b6f2-6327adff57f4)
 
+![Screenshot (221)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/994141ef-534c-453b-b6f2-6327adff57f4)
+![Screenshot (227)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/950a8944-958e-4f5e-90ac-11affc689859)
 
 ![Screenshot (224)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/0529aa8f-1fe6-4a09-95d0-843ae32ea2eb)
-![Screenshot (227)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/950a8944-958e-4f5e-90ac-11affc689859)
 ![Screenshot (223)](https://github.com/sur-123-bhi/bouncy-invention-713/assets/129533897/b8018c50-7aa5-4c04-aee1-119dce783554)
 
